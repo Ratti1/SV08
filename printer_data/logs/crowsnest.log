@@ -3573,3 +3573,115 @@
 [12/10/26 20:33:40] Try to start configured Cams / Services ...
 [12/10/26 20:33:40] [cam 1]: Start ustreamer with device /dev/video0 ...
 [12/10/26 20:33:40] ... Done!
+[13/10/26 15:19:33] Received signal 15. Shutting down...
+[13/10/26 15:19:33] INFO: [cam 1] exited with code 0
+[13/10/26 15:19:33] Shutdown or Killed by User!
+[13/10/26 15:19:33] Please come again :)
+[13/10/26 15:19:33] Goodbye...
+[13/10/26 15:19:43] crowsnest - A webcam Service for multiple Cams and Stream Services.
+[13/10/26 15:19:43] Version: v5.0.12-3-g13d772b
+[13/10/26 15:19:43] Prepare Startup ...
+[13/10/26 15:19:43] INFO: Host Information:
+[13/10/26 15:19:43]       Distribution: Debian GNU/Linux 11 (bullseye)
+[13/10/26 15:19:43]       Kernel: Linux 5.16.17-sun50iw9 aarch64
+[13/10/26 15:19:43]       Model: Unknown
+[13/10/26 15:19:43]       Available CPU Cores: 4
+[13/10/26 15:19:43]       Available Memory: 1010636 kB
+[13/10/26 15:19:43]       Diskspace (avail. / total): 24G / 29G
+[13/10/26 15:19:43] INFO: Found Streamer:
+[13/10/26 15:19:43]       camera-streamer: /usr/bin/camera-streamer
+[13/10/26 15:19:43]       ustreamer: /usr/bin/ustreamer
+[13/10/26 15:19:43] INFO: Print Configfile: '/home/biqu/printer_data/config/crowsnest.conf'
+[13/10/26 15:19:43]       [crowsnest]
+[13/10/26 15:19:43]       log_level: verbose
+[13/10/26 15:19:43]       rollover_on_start: false
+[13/10/26 15:19:43]       no_proxy: false
+[13/10/26 15:19:43]       
+[13/10/26 15:19:43]       [cam 1]
+[13/10/26 15:19:43]       mode: ustreamer
+[13/10/26 15:19:43]       port: 8080
+[13/10/26 15:19:43]       device: /dev/video0
+[13/10/26 15:19:43]       resolution: 640x480
+[13/10/26 15:19:43]       max_fps: 15
+[13/10/26 15:19:43] INFO: Detect available Devices
+[13/10/26 15:19:43] INFO: Found 1 total available Device(s)
+[13/10/26 15:19:43] INFO: Found 1 available v4l2 (UVC) camera(s)
+[13/10/26 15:19:43] /dev/v4l/by-id/usb-HHW_microelectronics_Co.__Ltd._MGS1-video-index0 -> /dev/video0
+[13/10/26 15:19:43] Supported Formats:
+[13/10/26 15:19:44]       [0]: 'MJPG' (Motion-JPEG, compressed):
+[13/10/26 15:19:44]               Size: Discrete 1280x720
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.040s (25.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.050s (20.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.067s (15.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.100s (10.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.200s (5.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 800x480
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.040s (25.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.050s (20.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.067s (15.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.100s (10.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.200s (5.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 672x456
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.040s (25.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.050s (20.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.067s (15.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.100s (10.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.200s (5.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 640x480
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.040s (25.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.050s (20.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.067s (15.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.100s (10.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.200s (5.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 320x240
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.040s (25.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.050s (20.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.067s (15.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.100s (10.000 fps)
+[13/10/26 15:19:44]                       Interval: Discrete 0.200s (5.000 fps)
+[13/10/26 15:19:44]       [1]: 'YUYV' (YUYV 4:2:2):
+[13/10/26 15:19:44]               Size: Discrete 1280x720
+[13/10/26 15:19:44]                       Interval: Discrete 0.100s (10.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 800x480
+[13/10/26 15:19:44]                       Interval: Discrete 0.040s (25.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 672x456
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 640x480
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44]               Size: Discrete 320x240
+[13/10/26 15:19:44]                       Interval: Discrete 0.033s (30.000 fps)
+[13/10/26 15:19:44] Supported Controls:
+[13/10/26 15:19:44]       User Controls:
+[13/10/26 15:19:44]             brightness (int)                  : min=-64 max=64 step=1 default=0 value=0
+[13/10/26 15:19:44]             contrast (int)                    : min=0 max=64 step=1 default=32 value=32
+[13/10/26 15:19:44]             saturation (int)                  : min=0 max=128 step=1 default=64 value=64
+[13/10/26 15:19:44]             hue (int)                         : min=-40 max=40 step=1 default=0 value=0
+[13/10/26 15:19:44]             white_balance_automatic (bool)    : default=1 value=1
+[13/10/26 15:19:44]             gamma (int)                       : min=72 max=500 step=1 default=100 value=100
+[13/10/26 15:19:44]             gain (int)                        : min=0 max=100 step=1 default=0 value=0
+[13/10/26 15:19:44]             power_line_frequency (menu)       : min=0 max=2 default=2 value=2
+[13/10/26 15:19:44]                   0: Disabled
+[13/10/26 15:19:44]                   1: 50 Hz
+[13/10/26 15:19:44]                   2: 60 Hz
+[13/10/26 15:19:44]             white_balance_temperature (int)   : min=2800 max=6500 step=1 default=4600 value=4600 flags=inactive
+[13/10/26 15:19:44]             sharpness (int)                   : min=0 max=6 step=1 default=3 value=3
+[13/10/26 15:19:44]             backlight_compensation (int)      : min=0 max=2 step=1 default=1 value=1
+[13/10/26 15:19:44]       
+[13/10/26 15:19:44]       Camera Controls:
+[13/10/26 15:19:44]             auto_exposure (menu)              : min=0 max=3 default=3 value=3
+[13/10/26 15:19:44]                   1: Manual Mode
+[13/10/26 15:19:44]                   3: Aperture Priority Mode
+[13/10/26 15:19:44]             exposure_time_absolute (int)      : min=1 max=5000 step=1 default=156 value=156 flags=inactive
+[13/10/26 15:19:44]             exposure_dynamic_framerate (bool) : default=0 value=1
+[13/10/26 15:19:44]       
+[13/10/26 15:19:44] Try to parse configured Cams / Services...
+[13/10/26 15:19:44] [cam 1]: Parse configuration ...
+[13/10/26 15:19:44] [cam 1]: Configuration looks good. Continue ...
+[13/10/26 15:19:44] Try to start configured Cams / Services ...
+[13/10/26 15:19:44] [cam 1]: Start ustreamer with device /dev/video0 ...
+[13/10/26 15:19:44] ... Done!

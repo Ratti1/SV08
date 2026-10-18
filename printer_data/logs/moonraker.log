@@ -340,3 +340,33 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryb588384f3c44e0a
 2026-10-18 12:34:35,309 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 61.95ms
 2026-10-18 12:34:36,176 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-10-18 12:34:37,438 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-18 12:34:41,124 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-18 12:34:41,127 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-18 12:34:41,131 [klippy_connection.py:_check_ready()] - 
+pin PA8 used multiple times in config
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2026-10-18 12:35:23,265 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundaryed5d646afa4620546a0d9427c6868a0d
+2026-10-18 12:35:23,309 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-18 12:35:23,326 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 64.72ms
+2026-10-18 12:35:23,344 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-18 12:35:24,607 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-18 12:35:28,133 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-18 12:35:28,136 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-18 12:35:28,139 [klippy_connection.py:_check_ready()] - 
+pin PA5 used multiple times in config
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2026-10-18 12:35:54,039 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary78946a174b31e261ff373fc6c34f9a48
+2026-10-18 12:35:54,079 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-18 12:35:54,097 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 61.38ms
+2026-10-18 12:35:54,115 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-18 12:35:55,379 [klippy_connection.py:_do_connect()] - Klippy Connection Established

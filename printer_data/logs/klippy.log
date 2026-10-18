@@ -27202,3 +27202,90 @@ Loaded MCU 'mcu' 143 commands (v0.13.0-787-ge2b99a91 / gcc: (15:8-2019-q3-1+b1) 
 MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1_PA6_PA7_PA5=PA6,PA7,PA5 BUS_PINS_spi1_PB4_PB5_PB3=PB4,PB5,PB3 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2_PB14_PB15_PB13=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi3_PB4_PB5_PB3=PB4,PB5,PB3 CLOCK_FREQ=72000000 INITIAL_PINS=PA1,PA3 MCU=stm32f103xe PWM_MAX=32768 RESERVE_PINS_USB=PA11,PA12 STATS_SUMSQ_BASE=256 STEPPER_OPTIMIZED_EDGE=9 STEPPER_STEP_BOTH_EDGE=1
 MCU 'mcu' kconfig: 'CONFIG_LOW_LEVEL_OPTIONS=y\nCONFIG_MACH_STM32=y\nCONFIG_INITIAL_PINS="PA1,PA3"\n'
 mcu 'extra_mcu': Starting serial connect
+Loaded MCU 'extra_mcu' 143 commands (v0.13.0-787-ge2b99a91 / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
+MCU 'extra_mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1_PA6_PA7_PA5=PA6,PA7,PA5 BUS_PINS_spi1_PB4_PB5_PB3=PB4,PB5,PB3 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2_PB14_PB15_PB13=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi3_PB4_PB5_PB3=PB4,PB5,PB3 CLOCK_FREQ=72000000 INITIAL_PINS=PA6 MCU=stm32f103xe PWM_MAX=32768 RESERVE_PINS_USB=PA11,PA12 STATS_SUMSQ_BASE=256 STEPPER_OPTIMIZED_EDGE=9 STEPPER_STEP_BOTH_EDGE=1
+MCU 'extra_mcu' kconfig: 'CONFIG_LOW_LEVEL_OPTIONS=y\nCONFIG_MACH_STM32=y\nCONFIG_INITIAL_PINS="PA6"\n'
+mcu_temperature 'mcu' nominal base=357.558140 slope=-767.441860
+mcu_temperature 'extra_mcu' nominal base=357.558140 slope=-767.441860
+Sending MCU 'mcu' printer configuration...
+Configured MCU 'mcu' (1024 moves)
+Sending MCU 'extra_mcu' printer configuration...
+Configured MCU 'extra_mcu' (1024 moves)
+bed_mesh: generated points
+Index |  Tool Adjusted  |   Probe
+  0   | (27.0, 0.0)     | (10.0, 10.0)
+  1   | (67.4, 0.0)     | (50.4, 10.0)
+  2   | (107.7, 0.0)    | (90.7, 10.0)
+  3   | (148.1, 0.0)    | (131.1, 10.0)
+  4   | (188.5, 0.0)    | (171.5, 10.0)
+  5   | (228.8, 0.0)    | (211.8, 10.0)
+  6   | (269.2, 0.0)    | (252.2, 10.0)
+  7   | (309.6, 0.0)    | (292.6, 10.0)
+  8   | (350.0, 0.0)    | (333.0, 10.0)
+  9   | (350.0, 41.2)   | (333.0, 51.2)
+  10  | (309.6, 41.2)   | (292.6, 51.2)
+  11  | (269.2, 41.2)   | (252.2, 51.2)
+  12  | (228.8, 41.2)   | (211.8, 51.2)
+  13  | (188.5, 41.2)   | (171.5, 51.2)
+  14  | (148.1, 41.2)   | (131.1, 51.2)
+  15  | (107.7, 41.2)   | (90.7, 51.2)
+  16  | (67.4, 41.2)    | (50.4, 51.2)
+  17  | (27.0, 41.2)    | (10.0, 51.2)
+  18  | (27.0, 82.5)    | (10.0, 92.5)
+  19  | (67.4, 82.5)    | (50.4, 92.5)
+  20  | (107.7, 82.5)   | (90.7, 92.5)
+  21  | (148.1, 82.5)   | (131.1, 92.5)
+  22  | (188.5, 82.5)   | (171.5, 92.5)
+  23  | (228.8, 82.5)   | (211.8, 92.5)
+  24  | (269.2, 82.5)   | (252.2, 92.5)
+  25  | (309.6, 82.5)   | (292.6, 92.5)
+  26  | (350.0, 82.5)   | (333.0, 92.5)
+  27  | (350.0, 123.8)  | (333.0, 133.8)
+  28  | (309.6, 123.8)  | (292.6, 133.8)
+  29  | (269.2, 123.8)  | (252.2, 133.8)
+  30  | (228.8, 123.8)  | (211.8, 133.8)
+  31  | (188.5, 123.8)  | (171.5, 133.8)
+  32  | (148.1, 123.8)  | (131.1, 133.8)
+  33  | (107.7, 123.8)  | (90.7, 133.8)
+  34  | (67.4, 123.8)   | (50.4, 133.8)
+  35  | (27.0, 123.8)   | (10.0, 133.8)
+  36  | (27.0, 165.0)   | (10.0, 175.0)
+  37  | (67.4, 165.0)   | (50.4, 175.0)
+  38  | (107.7, 165.0)  | (90.7, 175.0)
+  39  | (148.1, 165.0)  | (131.1, 175.0)
+  40  | (188.5, 165.0)  | (171.5, 175.0)
+  41  | (228.8, 165.0)  | (211.8, 175.0)
+  42  | (269.2, 165.0)  | (252.2, 175.0)
+  43  | (309.6, 165.0)  | (292.6, 175.0)
+  44  | (350.0, 165.0)  | (333.0, 175.0)
+  45  | (350.0, 206.2)  | (333.0, 216.2)
+  46  | (309.6, 206.2)  | (292.6, 216.2)
+  47  | (269.2, 206.2)  | (252.2, 216.2)
+  48  | (228.8, 206.2)  | (211.8, 216.2)
+  49  | (188.5, 206.2)  | (171.5, 216.2)
+...points 50 through 80 truncated
+Starting heater checks for extruder
+Starting heater checks for heater_bed
+bed_mesh: Unknown profile [default]
+Script running error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/delayed_gcode.py", line 34, in _gcode_timer_event
+    self.gcode.run_script(self.timer_gcode.render())
+  File "/home/biqu/klipper/klippy/gcode.py", line 241, in run_script
+    self._process_commands(script.split('\n'), need_ack=False)
+  File "/home/biqu/klipper/klippy/gcode.py", line 223, in _process_commands
+    handler(gcmd)
+  File "/home/biqu/klipper/klippy/gcode.py", line 151, in <lambda>
+    func = lambda params: origfunc(self._get_extended_params(params))
+  File "/home/biqu/klipper/klippy/extras/bed_mesh.py", line 1760, in cmd_BED_MESH_PROFILE
+    options[key](name)
+  File "/home/biqu/klipper/klippy/extras/bed_mesh.py", line 1716, in load_profile
+    raise self.gcode.error(
+gcode.CommandError: bed_mesh: Unknown profile [default]
+webhooks: registering remote method 'shutdown_machine' for connection id: 281473404624176
+webhooks: registering remote method 'reboot_machine' for connection id: 281473404624176
+webhooks: registering remote method 'pause_job_queue' for connection id: 281473404624176
+webhooks: registering remote method 'start_job_queue' for connection id: 281473404624176
+webhooks: registering remote method 'timelapse_newframe' for connection id: 281473404624176
+webhooks: registering remote method 'timelapse_saveFrames' for connection id: 281473404624176
+webhooks: registering remote method 'timelapse_render' for connection id: 281473404624176

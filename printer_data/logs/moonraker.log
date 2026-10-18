@@ -239,3 +239,8 @@ Content-Type: multipart/form-data; boundary=------------------------fa97a09b2b2e
 2026-10-18 12:05:56,435 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.63ms
 2026-10-18 12:05:56,437 [websockets.py:open()] - Websocket Opened: ID: 281473401502256, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
 2026-10-18 12:05:56,458 [websockets.py:_handle_identify()] - Websocket 281473401502256 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-18 12:08:22,227 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary1a7bee821244dc3173b4b305f757401a
+2026-10-18 12:08:22,249 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-18 12:08:22,262 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 36.45ms
+2026-10-18 12:08:22,272 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.services.restart, Code: 400, Message: Service '{'isTrusted': True}' not allowed

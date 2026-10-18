@@ -222,3 +222,6 @@ Content-Type: multipart/form-data; boundary=------------------------fa97a09b2b2e
 2026-10-18 11:06:23,898 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1574.06ms
 2026-10-18 11:06:23,920 [job_state.py:_send_job_event()] - Job Started: OrcaCube_v2_PLA_0.2_20m11s.gcode
 2026-10-18 11:10:46,583 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished
+2026-10-18 11:11:28,924 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000002.jpg) successfully finished
+2026-10-18 11:11:51,505 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000003.jpg) successfully finished
+2026-10-18 11:12:07,530 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000004.jpg) successfully finished

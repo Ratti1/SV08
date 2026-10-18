@@ -212,3 +212,12 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarycdfb40c3d0d12aa
 2026-10-18 10:57:47,495 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4.49ms
 2026-10-18 10:57:47,496 [websockets.py:open()] - Websocket Opened: ID: 281473402636176, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
 2026-10-18 10:57:47,549 [websockets.py:_handle_identify()] - Websocket 281473402636176 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-18 11:06:22,328 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=------------------------fa97a09b2b2e82a8
+2026-10-18 11:06:22,934 [application.py:post()] - Processing Uploaded File: OrcaCube_v2_PLA_0.2_20m11s.gcode
+2026-10-18 11:06:23,620 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2026-10-18 11:06:23,861 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-hreqkxv0.json) successfully finished
+2026-10-18 11:06:23,865 [klippy_apis.py:start_print()] - Requesting Job Start, filename = OrcaCube_v2_PLA_0.2_20m11s.gcode
+2026-10-18 11:06:23,898 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1574.06ms
+2026-10-18 11:06:23,920 [job_state.py:_send_job_event()] - Job Started: OrcaCube_v2_PLA_0.2_20m11s.gcode

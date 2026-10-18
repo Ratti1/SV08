@@ -27193,3 +27193,12 @@ verbose = True
 gcode = 
 	RUN_SHELL_COMMAND CMD=hello_world
 =======================
+webhooks client 281473404624176: New connection
+Using thermistor beta 4340.002 in heater heater_bed
+webhooks client 281473404624176: Client info {'program': 'Moonraker', 'version': 'v0.11.0-3-g9e676eb'}
+Extruder max_extrude_ratio=0.266081
+mcu 'mcu': Starting serial connect
+Loaded MCU 'mcu' 143 commands (v0.13.0-787-ge2b99a91 / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
+MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1_PA6_PA7_PA5=PA6,PA7,PA5 BUS_PINS_spi1_PB4_PB5_PB3=PB4,PB5,PB3 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2_PB14_PB15_PB13=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi3_PB4_PB5_PB3=PB4,PB5,PB3 CLOCK_FREQ=72000000 INITIAL_PINS=PA1,PA3 MCU=stm32f103xe PWM_MAX=32768 RESERVE_PINS_USB=PA11,PA12 STATS_SUMSQ_BASE=256 STEPPER_OPTIMIZED_EDGE=9 STEPPER_STEP_BOTH_EDGE=1
+MCU 'mcu' kconfig: 'CONFIG_LOW_LEVEL_OPTIONS=y\nCONFIG_MACH_STM32=y\nCONFIG_INITIAL_PINS="PA1,PA3"\n'
+mcu 'extra_mcu': Starting serial connect

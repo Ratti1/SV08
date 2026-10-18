@@ -255,3 +255,53 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary3fb78b3cc2b08a9
 2026-10-18 12:10:13,493 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-10-18 12:10:13,766 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-10-18 12:10:14,508 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-18 12:11:23,374 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundarya5f05fc38558ea6654d220569b22b89f
+2026-10-18 12:11:23,410 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-18 12:11:23,431 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 60.99ms
+2026-10-18 12:11:24,296 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-18 12:11:25,559 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-18 12:11:31,178 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-18 12:11:32,440 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-18 12:11:38,048 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-18 12:11:39,313 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-18 12:11:45,288 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-18 12:11:45,292 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-18 12:11:45,555 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-10-18 12:11:45,838 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-10-18 12:11:46,261 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-18 12:11:46,267 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.subscribe, Code: 503, Message: Klippy Disconnected
+2026-10-18 12:11:46,271 [data_store.py:_init_sensors()] - Error subscribing to sensors: Klippy Host not connected
+2026-10-18 12:11:46,281 [server.py:_process_event()] - 
+Error processing callback in event server:klippy_ready
+Traceback (most recent call last):
+  File "/home/biqu/moonraker/moonraker/components/octoprint_compat.py", line 144, in _init
+    result = await self.klippy_apis.subscribe_objects(sub)
+  File "/home/biqu/moonraker/moonraker/components/klippy_apis.py", line 255, in subscribe_objects
+    result = await self._send_klippy_request(SUBSCRIPTION_ENDPOINT, params, default)
+  File "/home/biqu/moonraker/moonraker/components/klippy_apis.py", line 111, in _send_klippy_request
+    result = await self.klippy.request(req)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 610, in request
+    return await self._request_subscripton(web_request)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 646, in _request_subscripton
+    result = await self._request_standard(web_request, 20.0)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 714, in _request_standard
+    return await base_request.wait(timeout)
+  File "/home/biqu/moonraker/moonraker/components/klippy_connection.py", line 825, in wait
+    return await asyncio.wait_for(asyncio.shield(self._fut), to)
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+moonraker.utils.exceptions.ServerError: Klippy Host not connected
+
+2026-10-18 12:11:46,321 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.objects.query, Code: 503, Message: Klippy Host not connected
+2026-10-18 12:11:47,527 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-18 12:11:53,443 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-18 12:11:53,446 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-18 12:11:53,695 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-10-18 12:11:53,979 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-10-18 12:11:54,707 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-18 12:13:02,650 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundarye2a8ccf8ba1adcd59fae0f49c8eb0fc4
+2026-10-18 12:13:02,688 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-18 12:13:02,709 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 62.46ms
+2026-10-18 12:13:03,588 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

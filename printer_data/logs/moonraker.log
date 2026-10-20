@@ -956,3 +956,10 @@ Repo Warnings:
 2026-10-20 18:49:31,661 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
 2026-10-20 18:49:31,753 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-10-20 18:49:33,270 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-20 18:49:35,806 [server.py:add_log_rollover_item()] - Klipper Version: v0.13.0-809-gc63b2951-dirty
+2026-10-20 18:49:39,863 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-20 18:49:39,866 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-20 18:49:40,114 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-10-20 18:49:40,405 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-10-20 18:49:40,881 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-20 18:49:58,770 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.update.system, Code: 400, Message: Error updating system packages

@@ -963,3 +963,7 @@ Repo Warnings:
 2026-10-20 18:49:40,405 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-10-20 18:49:40,881 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-10-20 18:49:58,770 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: machine.update.system, Code: 400, Message: Error updating system packages
+2026-10-20 18:59:44,868 [websockets.py:on_close()] - Websocket Closed: ID: 281473369900992 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.41
+2026-10-20 18:59:45,275 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 8.92ms
+2026-10-20 18:59:45,277 [websockets.py:open()] - Websocket Opened: ID: 281473369901088, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-20 18:59:45,284 [websockets.py:_handle_identify()] - Websocket 281473369901088 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

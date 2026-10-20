@@ -405,3 +405,6 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary81279f9fd2bab54
 2026-10-20 18:01:15,999 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-10-20 18:01:16,975 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-10-20 18:16:20,366 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473371077936
+2026-10-20 18:16:24,878 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473405676368
+2026-10-20 18:16:25,255 [websockets.py:on_close()] - Websocket Closed: ID: 281473371077936 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
+2026-10-20 18:16:29,691 [websockets.py:on_close()] - Websocket Closed: ID: 281473405676368 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00

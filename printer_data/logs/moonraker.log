@@ -215,3 +215,6 @@ Content-Type: multipart/form-data; boundary=------------------------8d814ddef097
 2026-10-20 17:22:37,891 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2026-10-20 17:22:40,002 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2026-10-20 17:24:05,214 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-10-20 17:26:19,559 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.17ms
+2026-10-20 17:26:19,561 [websockets.py:open()] - Websocket Opened: ID: 281473405676320, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-20 17:26:19,584 [websockets.py:_handle_identify()] - Websocket 281473405676320 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

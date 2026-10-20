@@ -235,3 +235,4 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary81279f9fd2bab54
 2026-10-20 17:33:21,729 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-10-20 17:34:34,912 [klippy_apis.py:start_print()] - Requesting Job Start, filename = OrcaCube_v2_PLA_0.2_20m34s.gcode
 2026-10-20 17:34:34,977 [job_state.py:_send_job_event()] - Job Started: OrcaCube_v2_PLA_0.2_20m34s.gcode
+2026-10-20 17:37:18,195 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished

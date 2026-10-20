@@ -211,3 +211,6 @@ Content-Type: multipart/form-data; boundary=------------------------8d814ddef097
 2026-10-20 17:20:24,066 [klippy_apis.py:start_print()] - Requesting Job Start, filename = OrcaCube_v2_PLA_0.2_20m34s.gcode
 2026-10-20 17:20:24,112 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1635.13ms
 2026-10-20 17:20:24,340 [job_state.py:_send_job_event()] - Job Started: OrcaCube_v2_PLA_0.2_20m34s.gcode
+2026-10-20 17:22:35,171 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-10-20 17:22:37,891 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-10-20 17:22:40,002 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds

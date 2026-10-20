@@ -415,3 +415,14 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary81279f9fd2bab54
 2026-10-20 18:24:35,395 [websockets.py:open()] - Websocket Opened: ID: 281473370033264, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
 2026-10-20 18:24:35,425 [websockets.py:_handle_identify()] - Websocket 281473370033264 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-10-20 18:32:38,826 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 191.000 165.000 348.000 [0.000]
+2026-10-20 18:35:45,628 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary99838866e34e2b6feec3095ecafb2100
+2026-10-20 18:35:45,653 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-20 18:35:45,665 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 38.90ms
+2026-10-20 18:35:46,734 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-20 18:35:47,999 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-20 18:35:54,231 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-20 18:35:54,243 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-20 18:35:54,498 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-10-20 18:35:54,742 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-10-20 18:35:55,474 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']

@@ -202,3 +202,12 @@ Klipper Version: v0.13.0-787-ge2b99a91-dirty
 2026-10-20 17:18:28,893 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4.28ms
 2026-10-20 17:18:28,894 [websockets.py:open()] - Websocket Opened: ID: 281473371328624, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
 2026-10-20 17:18:28,912 [websockets.py:_handle_identify()] - Websocket 281473371328624 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-20 17:20:22,479 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=------------------------8d814ddef097c27f
+2026-10-20 17:20:23,104 [application.py:post()] - Processing Uploaded File: OrcaCube_v2_PLA_0.2_20m34s.gcode
+2026-10-20 17:20:23,810 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2026-10-20 17:20:24,062 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-6qy3dcfn.json) successfully finished
+2026-10-20 17:20:24,066 [klippy_apis.py:start_print()] - Requesting Job Start, filename = OrcaCube_v2_PLA_0.2_20m34s.gcode
+2026-10-20 17:20:24,112 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1635.13ms
+2026-10-20 17:20:24,340 [job_state.py:_send_job_event()] - Job Started: OrcaCube_v2_PLA_0.2_20m34s.gcode

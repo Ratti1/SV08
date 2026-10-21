@@ -914,3 +914,7 @@ Content-Type: multipart/form-data; boundary=------------------------053656eae986
 2026-10-21 15:56:06,555 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000231.jpg) successfully finished
 2026-10-21 15:56:12,699 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000232.jpg) successfully finished
 2026-10-21 15:56:18,375 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000233.jpg) successfully finished
+2026-10-21 15:56:23,542 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000234.jpg) successfully finished
+2026-10-21 15:56:24,817 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000235.jpg) successfully finished
+2026-10-21 15:56:29,196 [timelapse.py:render()] - start FFMPEG: /usr/bin/ffmpeg -r 30 -i '/tmp/timelapse/frame%6d.jpg' -threads 2 -g 5 -crf 23 -vcodec libx264 -pix_fmt yuv420p -an  '/tmp/timelapse/timelapse_Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode_20261021_1556.mp4' -y
+2026-10-21 15:56:55,874 [timelapse.py:render()] - Rendering Video successful: timelapse_Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode_20261021_1556.mp4

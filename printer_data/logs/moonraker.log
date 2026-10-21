@@ -659,3 +659,6 @@ Properties:
 2026-10-21 14:47:25,215 [websockets.py:open()] - Websocket Opened: ID: 281473774672528, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
 2026-10-21 14:47:25,233 [websockets.py:_handle_identify()] - Websocket 281473774672528 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-10-21 14:47:27,794 [websockets.py:on_close()] - Websocket Closed: ID: 281473774672528 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.58
+2026-10-21 14:48:28,445 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.03ms
+2026-10-21 14:48:28,447 [websockets.py:open()] - Websocket Opened: ID: 281473774908368, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
+2026-10-21 14:48:28,465 [websockets.py:_handle_identify()] - Websocket 281473774908368 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

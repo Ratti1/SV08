@@ -4072,3 +4072,27 @@ toolhead: max_velocity: 700.000000
 max_accel: 8000.000000
 minimum_cruise_ratio: 0.500000
 square_corner_velocity: 5.000000
+Reactor 2984.636 busy for 0.054 with:
+- 'VirtualSD.work_handler (virtual_sdcard.py:240)'
+Stats 2985.3: gcodein=0 mcu: mcu_awake=0.062 mcu_task_avg=0.000055 mcu_task_stddev=0.000050 bytes_write=1825264 bytes_read=792393 bytes_retransmit=9 bytes_invalid=0 send_seq=43432 receive_seq=43432 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003184 extra_mcu: mcu_awake=0.017 mcu_task_avg=0.000039 mcu_task_stddev=0.000035 bytes_write=556032 bytes_read=591380 bytes_retransmit=32 bytes_invalid=0 send_seq=16457 receive_seq=16457 retransmit_seq=9276 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=45 upcoming_bytes=0 freq=72003373 adj=72000107 sd_pos=971424 mcu_temp: temp=47.2 Host_temp: temp=59.6 Toolhead_Temp: temp=48.6 heater_bed: target=65 temp=65.0 pwm=0.288 print_time=2995.358 buffer_time=1.076 print_stall=0 extruder: target=220 temp=219.8 pwm=0.614 sysload=0.08 cputime=241.576 memavail=742952
+toolhead: max_velocity: 700.000000
+max_accel: 20000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+toolhead: max_velocity: 700.000000
+max_accel: 12000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+Stats 2986.3: gcodein=0 mcu: mcu_awake=0.062 mcu_task_avg=0.000055 mcu_task_stddev=0.000050 bytes_write=1830060 bytes_read=793205 bytes_retransmit=9 bytes_invalid=0 send_seq=43521 receive_seq=43521 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003181 extra_mcu: mcu_awake=0.017 mcu_task_avg=0.000039 mcu_task_stddev=0.000035 bytes_write=557950 bytes_read=591711 bytes_retransmit=32 bytes_invalid=0 send_seq=16490 receive_seq=16490 retransmit_seq=9276 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=31 upcoming_bytes=0 freq=72003370 adj=72000161 sd_pos=975914 mcu_temp: temp=47.4 Host_temp: temp=62.6 Toolhead_Temp: temp=48.6 heater_bed: target=65 temp=65.0 pwm=0.190 print_time=2996.762 buffer_time=1.478 print_stall=0 extruder: target=220 temp=220.1 pwm=0.543 sysload=0.08 cputime=241.772 memavail=742480
+Stats 2987.3: gcodein=0 mcu: mcu_awake=0.062 mcu_task_avg=0.000055 mcu_task_stddev=0.000050 bytes_write=1835003 bytes_read=793985 bytes_retransmit=9 bytes_invalid=0 send_seq=43610 receive_seq=43610 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003177 extra_mcu: mcu_awake=0.017 mcu_task_avg=0.000039 mcu_task_stddev=0.000035 bytes_write=559946 bytes_read=592063 bytes_retransmit=32 bytes_invalid=0 send_seq=16524 receive_seq=16524 retransmit_seq=9276 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=8 upcoming_bytes=0 freq=72003369 adj=72000168 sd_pos=978298 mcu_temp: temp=47.3 Host_temp: temp=61.7 Toolhead_Temp: temp=48.5 heater_bed: target=65 temp=65.0 pwm=0.195 print_time=2997.465 buffer_time=1.180 print_stall=0 extruder: target=220 temp=220.4 pwm=0.487 sysload=0.08 cputime=241.920 memavail=740216
+Reactor 2987.534 busy for 0.054 with:
+- 'VirtualSD.work_handler (virtual_sdcard.py:240)'
+toolhead: max_velocity: 700.000000
+max_accel: 20000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+toolhead: max_velocity: 700.000000
+max_accel: 12000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+Stats 2988.3: gcodein=0 mcu: mcu_awake=0.055 mcu_task_avg=0.000051 mcu_task_stddev=0.000045 bytes_write=1839861 bytes_read=794791 bytes_retransmit=9 bytes_invalid=0 send_seq=43701 receive_seq=43701 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003188 extra_mcu: mcu_awake=0.017 mcu_task_avg=0.000039 mcu_task_stddev=0.000035 bytes_write=561845 bytes_read=592410 bytes_retransmit=32 bytes_invalid=0 send_seq=16557 receive_seq=16557 retransmit_seq=9276 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=32 upcoming_bytes=0 freq=72003369 adj=72000219 sd_pos=981599 mcu_temp: temp=47.2 Host_temp: temp=60.5 Toolhead_Temp: temp=48.7 heater_bed: target=65 temp=65.0 pwm=0.140 print_time=2998.395 buffer_time=1.110 print_stall=0 extruder: target=220 temp=220.5 pwm=0.487 sysload=0.07 cputime=242.156 memavail=740216

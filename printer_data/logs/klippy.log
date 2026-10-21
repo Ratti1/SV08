@@ -2223,3 +2223,40 @@ Stats 2636.8: gcodein=0 mcu: mcu_awake=0.063 mcu_task_avg=0.000020 mcu_task_stdd
 probe: at 329.000,330.000 bed will contact at z=0.825666
 Stats 2637.8: gcodein=0 mcu: mcu_awake=0.055 mcu_task_avg=0.000021 mcu_task_stddev=0.000023 bytes_write=227337 bytes_read=495358 bytes_retransmit=9 bytes_invalid=0 send_seq=12468 receive_seq=12468 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003255 extra_mcu: mcu_awake=0.032 mcu_task_avg=0.000017 mcu_task_stddev=0.000009 bytes_write=66666 bytes_read=461837 bytes_retransmit=9 bytes_invalid=0 send_seq=6819 receive_seq=6819 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003748 adj=72000336 sd_pos=115209 mcu_temp: temp=46.4 Host_temp: temp=57.6 Toolhead_Temp: temp=38.3 heater_bed: target=65 temp=65.8 pwm=0.035 print_time=2647.434 buffer_time=0.693 print_stall=0 extruder: target=235 temp=235.0 pwm=0.354 sysload=0.81 cputime=175.315 memavail=752304
 Stats 2638.8: gcodein=0 mcu: mcu_awake=0.055 mcu_task_avg=0.000021 mcu_task_stddev=0.000023 bytes_write=228630 bytes_read=496548 bytes_retransmit=9 bytes_invalid=0 send_seq=12532 receive_seq=12531 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003253 extra_mcu: mcu_awake=0.030 mcu_task_avg=0.000017 mcu_task_stddev=0.000009 bytes_write=67154 bytes_read=462758 bytes_retransmit=9 bytes_invalid=0 send_seq=6857 receive_seq=6857 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003746 adj=72000357 sd_pos=115209 mcu_temp: temp=46.5 Host_temp: temp=58.3 Toolhead_Temp: temp=38.3 heater_bed: target=65 temp=65.8 pwm=0.114 print_time=2647.487 buffer_time=0.000 print_stall=0 extruder: target=235 temp=235.0 pwm=0.278 sysload=0.81 cputime=175.467 memavail=746688
+Stats 2639.8: gcodein=0 mcu: mcu_awake=0.055 mcu_task_avg=0.000021 mcu_task_stddev=0.000023 bytes_write=231180 bytes_read=499749 bytes_retransmit=9 bytes_invalid=0 send_seq=12699 receive_seq=12699 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003249 extra_mcu: mcu_awake=0.030 mcu_task_avg=0.000017 mcu_task_stddev=0.000009 bytes_write=68768 bytes_read=465556 bytes_retransmit=9 bytes_invalid=0 send_seq=6992 receive_seq=6992 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003743 adj=72000362 sd_pos=115209 mcu_temp: temp=46.6 Host_temp: temp=59.9 Toolhead_Temp: temp=38.3 heater_bed: target=65 temp=65.8 pwm=0.114 print_time=2647.487 buffer_time=0.000 print_stall=0 extruder: target=235 temp=235.1 pwm=0.278 sysload=0.81 cputime=175.791 memavail=743728
+probe: at 329.000,20.000 bed will contact at z=0.823791
+Stats 2640.8: gcodein=0 mcu: mcu_awake=0.055 mcu_task_avg=0.000021 mcu_task_stddev=0.000023 bytes_write=233429 bytes_read=501580 bytes_retransmit=9 bytes_invalid=0 send_seq=12803 receive_seq=12803 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003251 extra_mcu: mcu_awake=0.030 mcu_task_avg=0.000017 mcu_task_stddev=0.000009 bytes_write=69521 bytes_read=466895 bytes_retransmit=9 bytes_invalid=0 send_seq=7053 receive_seq=7053 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003740 adj=72000429 sd_pos=115209 mcu_temp: temp=46.5 Host_temp: temp=60.7 Toolhead_Temp: temp=38.4 heater_bed: target=65 temp=65.8 pwm=0.164 print_time=2649.416 buffer_time=0.000 print_stall=0 extruder: target=235 temp=235.0 pwm=0.318 sysload=0.81 cputime=175.964 memavail=743756
+probe: at 329.000,20.000 bed will contact at z=0.820041
+Gantry-relative probe points:
+0: 9.182771 1: 9.169646 2: 9.172459 3: 9.178084
+
+quad_gantry_level f1: (-1.5120967726757638e-05, 9.183058760409304), f2: (9.07258065019718e-06, 9.16947408299171)
+quad_gantry_level af: (-4.8504162323250316e-05, 9.184936101719371), bf: (-1.1823621235619254e-05, 9.177095636066046)
+Actuator Positions:
+z: 9.185421 z1: 9.164564 z2: 9.172130 z3: 9.177214
+Average: 9.174832
+Making the following Z adjustments:
+stepper_z = -0.010589
+stepper_z1 = 0.010268
+stepper_z2 = 0.002703
+stepper_z3 = -0.002382
+Retries: 3/5 Probed points range: 0.013125 tolerance: 0.050000
+Check Heating!
+The bed target temperature was not reached!
+Bed heating...
+Found 1 objects
+Original mesh bounds: ((10.0, 10.0),(333.0, 340.0))
+Original probe count: (9,9)
+Adapted mesh bounds: ([139.801, 147.499],[210.169, 202.514])
+Ratio: (0.21785758513931897, 0.16671212121212126)
+Adapted probe count: (3,3)
+bed_mesh: bicubic interpolation with a probe_count of less than 4 points detected.  Forcing lagrange interpolation. Configured Probe Count: 3, 3
+Updated Mesh Configuration:
+x_count: 3
+y_count: 3
+mesh_x_pps: 3
+mesh_y_pps: 3
+algo: lagrange
+tension: 0.4
+Stats 2641.8: gcodein=0 mcu: mcu_awake=0.055 mcu_task_avg=0.000021 mcu_task_stddev=0.000023 bytes_write=235743 bytes_read=502535 bytes_retransmit=9 bytes_invalid=0 send_seq=12870 receive_seq=12870 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=7 upcoming_bytes=0 freq=72003250 extra_mcu: mcu_awake=0.030 mcu_task_avg=0.000017 mcu_task_stddev=0.000009 bytes_write=69700 bytes_read=467336 bytes_retransmit=9 bytes_invalid=0 send_seq=7069 receive_seq=7069 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003738 adj=72000357 sd_pos=115209 mcu_temp: temp=46.6 Host_temp: temp=59.4 Toolhead_Temp: temp=38.4 heater_bed: target=65 temp=65.8 pwm=0.108 print_time=2651.531 buffer_time=0.787 print_stall=0 extruder: target=235 temp=234.8 pwm=0.423 sysload=0.81 cputime=176.136 memavail=742784
+Stats 2642.8: gcodein=0 mcu: mcu_awake=0.048 mcu_task_avg=0.000021 mcu_task_stddev=0.000024 bytes_write=236962 bytes_read=503517 bytes_retransmit=9 bytes_invalid=0 send_seq=12921 receive_seq=12921 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003250 extra_mcu: mcu_awake=0.030 mcu_task_avg=0.000017 mcu_task_stddev=0.000009 bytes_write=70033 bytes_read=467954 bytes_retransmit=9 bytes_invalid=0 send_seq=7095 receive_seq=7095 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003736 adj=72000391 sd_pos=115209 mcu_temp: temp=46.7 Host_temp: temp=59.1 Toolhead_Temp: temp=38.4 heater_bed: target=65 temp=65.7 pwm=0.108 print_time=2651.584 buffer_time=0.000 print_stall=0 extruder: target=235 temp=234.5 pwm=0.423 sysload=0.75 cputime=176.250 memavail=742748

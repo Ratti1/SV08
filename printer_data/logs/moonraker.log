@@ -928,3 +928,5 @@ Content-Type: multipart/form-data; boundary=------------------------053656eae986
 2026-10-21 16:01:07,764 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.23ms
 2026-10-21 16:01:07,765 [websockets.py:open()] - Websocket Opened: ID: 281473774672864, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
 2026-10-21 16:01:07,773 [websockets.py:_handle_identify()] - Websocket 281473774672864 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-21 16:02:49,294 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode
+2026-10-21 16:02:49,493 [job_state.py:_send_job_event()] - Job Started: Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode

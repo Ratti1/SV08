@@ -665,3 +665,9 @@ Properties:
 2026-10-21 14:54:55,386 [application.py:prepare()] - Upload Request Received from 192.168.1.77
 Content-Type: multipart/form-data; boundary=------------------------053656eae986d933
 2026-10-21 14:54:58,051 [application.py:post()] - Processing Uploaded File: Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode
+2026-10-21 14:54:58,864 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2026-10-21 14:54:59,147 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-7klpa32n.json) successfully finished
+2026-10-21 14:54:59,153 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode
+2026-10-21 14:54:59,208 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 3828.68ms
+2026-10-21 14:54:59,396 [job_state.py:_send_job_event()] - Job Started: Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode

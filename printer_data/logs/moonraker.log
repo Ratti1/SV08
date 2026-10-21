@@ -1221,3 +1221,5 @@ Content-Type: multipart/form-data; boundary=------------------------053656eae986
 2026-10-21 19:13:19,559 [websockets.py:open()] - Websocket Opened: ID: 281473774907936, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
 2026-10-21 19:13:19,596 [websockets.py:_handle_identify()] - Websocket 281473774907936 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-10-21 19:23:38,963 [websockets.py:on_close()] - Websocket Closed: ID: 281473775618608 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.70
+2026-10-21 19:47:20,066 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473774907936
+2026-10-21 19:47:24,857 [websockets.py:on_close()] - Websocket Closed: ID: 281473774907936 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00

@@ -671,3 +671,4 @@ Content-Type: multipart/form-data; boundary=------------------------053656eae986
 2026-10-21 14:54:59,153 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode
 2026-10-21 14:54:59,208 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 3828.68ms
 2026-10-21 14:54:59,396 [job_state.py:_send_job_event()] - Job Started: Myan_Death_Whistle_v4_PLA_0.2_39m50s.gcode
+2026-10-21 14:58:46,327 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished

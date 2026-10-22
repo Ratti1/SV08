@@ -1328,3 +1328,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypyvBmhJjwURBPV
 2026-10-22 19:09:08,751 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 8.28ms
 2026-10-22 19:09:08,753 [websockets.py:open()] - Websocket Opened: ID: 281472829860736, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
 2026-10-22 19:09:08,762 [websockets.py:_handle_identify()] - Websocket 281472829860736 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-22 19:24:37,502 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.89ms
+2026-10-22 19:24:37,504 [websockets.py:open()] - Websocket Opened: ID: 281472829858960, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-22 19:24:37,515 [websockets.py:_handle_identify()] - Websocket 281472829858960 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

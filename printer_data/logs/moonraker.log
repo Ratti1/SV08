@@ -225,3 +225,12 @@ Content-Type: multipart/form-data; boundary=------------------------4e58579fda72
 2026-10-22 16:41:22,789 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000010.jpg) successfully finished
 2026-10-22 16:41:28,040 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000011.jpg) successfully finished
 2026-10-22 16:41:33,212 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000012.jpg) successfully finished
+2026-10-22 16:41:38,717 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000013.jpg) successfully finished
+2026-10-22 16:41:44,056 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000014.jpg) successfully finished
+2026-10-22 16:41:49,481 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000015.jpg) successfully finished
+2026-10-22 16:41:54,861 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000016.jpg) successfully finished
+2026-10-22 16:42:04,720 [timelapse.py:render()] - start FFMPEG: /usr/bin/ffmpeg -r 30 -i '/tmp/timelapse/frame%6d.jpg' -threads 2 -g 5 -crf 23 -vcodec libx264 -pix_fmt yuv420p -an  '/tmp/timelapse/timelapse_Cube_PLA_0.2_1m38s.gcode_20261022_1642.mp4' -y
+2026-10-22 16:42:08,317 [timelapse.py:render()] - Rendering Video successful: timelapse_Cube_PLA_0.2_1m38s.gcode_20261022_1642.mp4
+2026-10-22 16:42:23,498 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.24ms
+2026-10-22 16:42:23,499 [websockets.py:open()] - Websocket Opened: ID: 281473423120176, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
+2026-10-22 16:42:23,530 [websockets.py:_handle_identify()] - Websocket 281473423120176 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

@@ -236,3 +236,255 @@ Content-Type: multipart/form-data; boundary=------------------------4e58579fda72
 2026-10-22 16:42:23,530 [websockets.py:_handle_identify()] - Websocket 281473423120176 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-10-22 16:43:18,092 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Unable to parse move 'G1  Y   F6000'
 2026-10-22 16:48:21,081 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 175.000 0.000 540.000 [144.460]
+2026-10-22 16:50:00,599 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUpzbm2nzUVuEXe1w
+2026-10-22 16:50:00,619 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-10-22 16:50:00,631 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 34.06ms
+2026-10-22 16:50:01,707 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-22 16:50:02,974 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-22 16:50:09,071 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-22 16:50:09,075 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-22 16:50:09,322 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-10-22 16:50:09,606 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-10-22 16:50:10,341 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-22 16:50:18,690 [base_deploy.py:log_info()] - PackageKit: Detected 0 package updates:
+
+2026-10-22 16:50:19,478 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker status --porcelain -b) successfully finished
+2026-10-22 16:50:19,503 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker branch --list --no-color) successfully finished
+2026-10-22 16:50:19,549 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker remote get-url origin) successfully finished
+2026-10-22 16:50:21,017 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker fetch origin --prune --progress) successfully finished
+2026-10-22 16:50:21,045 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-22 16:50:21,071 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker rev-parse HEAD) successfully finished
+2026-10-22 16:50:21,101 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-22 16:50:21,127 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker rev-parse origin/master) successfully finished
+2026-10-22 16:50:21,154 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-10-22 16:50:21,180 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker rev-list HEAD..b559b9a81161f958a43c2f527b6ad96f73310d5d --count) successfully finished
+2026-10-22 16:50:21,207 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker log 9e676eba6b02661a4dfa3ec6e7ac3f3504498e6d..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2026-10-22 16:50:21,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2026-10-22 16:50:21,323 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/biqu/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: 9e676eba6b02661a4dfa3ec6e7ac3f3504498e6d
+Upstream Commit SHA: b559b9a81161f958a43c2f527b6ad96f73310d5d
+Current Version: v0.11.0-3-g9e676eba
+Upstream Version: v0.11.0-4-gb559b9a8
+Rollback Commit: d5ee17128bb88434aacdab90c2e9e990e2b64e4a
+Rollback Branch: master
+Rollback Version: v0.10.0-31-gd5ee1712
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 1
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['moonraker/components/timelapse.py']
+2026-10-22 16:50:21,324 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2026-10-22 16:50:21,324 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2026-10-22 16:50:21,379 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper status --porcelain -b) successfully finished
+2026-10-22 16:50:21,404 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper branch --list --no-color) successfully finished
+2026-10-22 16:50:21,451 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper remote get-url origin) successfully finished
+2026-10-22 16:50:22,618 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper fetch origin --prune --progress) successfully finished
+2026-10-22 16:50:22,645 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-22 16:50:22,669 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse HEAD) successfully finished
+2026-10-22 16:50:22,913 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-22 16:50:22,946 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse origin/master) successfully finished
+2026-10-22 16:50:23,152 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-10-22 16:50:23,179 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-list HEAD..ee2c6fb6b00b2b5d097ef70d0868df7d74943b51 --count) successfully finished
+2026-10-22 16:50:23,208 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper log c63b29510b1f9ff0a8d10ee55b29cb843fdba4e0..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2026-10-22 16:50:23,448 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2026-10-22 16:50:23,450 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/biqu/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: c63b29510b1f9ff0a8d10ee55b29cb843fdba4e0
+Upstream Commit SHA: ee2c6fb6b00b2b5d097ef70d0868df7d74943b51
+Current Version: v0.13.0-809-gc63b2951
+Upstream Version: v0.13.0-816-gee2c6fb6
+Rollback Commit: e2b99a9159f992169c1ba53029dec020e850cc99
+Rollback Branch: master
+Rollback Version: v0.13.0-787-ge2b99a91
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 7
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py', 'klippy/extras/probe_pressure.py', 'klippy/extras/z_offset_calibration.py']
+2026-10-22 16:50:23,450 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2026-10-22 16:50:23,451 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2026-10-22 16:50:23,504 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse status --porcelain -b) successfully finished
+2026-10-22 16:50:23,529 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse branch --list --no-color) successfully finished
+2026-10-22 16:50:23,577 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse remote get-url origin) successfully finished
+2026-10-22 16:50:24,503 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse fetch origin --prune --progress) successfully finished
+2026-10-22 16:50:24,528 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse merge-base --is-ancestor HEAD origin/main) successfully finished
+2026-10-22 16:50:24,552 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse rev-parse HEAD) successfully finished
+2026-10-22 16:50:24,589 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-22 16:50:24,615 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse rev-parse origin/main) successfully finished
+2026-10-22 16:50:24,650 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse describe origin/main --always --tags --long --abbrev=8) successfully finished
+2026-10-22 16:50:24,676 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse rev-list HEAD..c7fff11e542b95e0e15b8bb1443cea8159ac0274 --count) successfully finished
+2026-10-22 16:50:24,678 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/biqu/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-143-gc7fff11e
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Rollback Branch: main
+Rollback Version: v0.0.1-143-gc7fff11e
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-10-22 16:50:24,678 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
+2026-10-22 16:50:24,678 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
+2026-10-22 16:50:25,019 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/biqu/mainsail
+Local Version: v2.19.0
+Remote Version: v2.19.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.19.0/mainsail.zip
+Download Size: 3137812
+Content Type: application/zip
+Rollback Version: v2.18.2
+Rollback Repo: mainsail-crew/mainsail
+2026-10-22 16:50:25,062 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config status --porcelain -b) successfully finished
+2026-10-22 16:50:25,088 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config branch --list --no-color) successfully finished
+2026-10-22 16:50:25,138 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config remote get-url origin) successfully finished
+2026-10-22 16:50:26,021 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config fetch origin --prune --progress) successfully finished
+2026-10-22 16:50:26,047 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-22 16:50:26,072 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config rev-parse HEAD) successfully finished
+2026-10-22 16:50:26,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-22 16:50:26,124 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config rev-parse origin/master) successfully finished
+2026-10-22 16:50:26,152 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-10-22 16:50:26,178 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config rev-list HEAD..ff3869a621db17ce3ef660adbbd3fa321995ac42 --count) successfully finished
+2026-10-22 16:50:26,180 [git_deploy.py:log_repo_info()] - Git Repo mainsail-config Detected:
+Owner: mainsail-crew
+Repository Name: mainsail-config
+Path: /home/biqu/mainsail-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/mainsail-config.git
+Recovery URL: https://github.com/mainsail-crew/mainsail-config.git
+Current Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Upstream Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Current Version: v1.2.1-1-gff3869a6
+Upstream Version: v1.2.1-1-gff3869a6
+Rollback Commit: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Rollback Branch: master
+Rollback Version: v1.2.1-1-gff3869a6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-10-22 16:50:26,181 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2026-10-22 16:50:26,181 [base_deploy.py:log_info()] - Git Repo mainsail-config: Validity check for git repo passed
+2026-10-22 16:50:26,518 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/biqu/fluidd
+Local Version: v1.37.7
+Remote Version: v1.37.7
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.37.7/fluidd.zip
+Download Size: 4406335
+Content Type: application/zip
+Rollback Version: v1.37.6
+Rollback Repo: fluidd-core/fluidd
+2026-10-22 16:50:26,597 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest status --porcelain -b) successfully finished
+2026-10-22 16:50:26,623 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest branch --list --no-color) successfully finished
+2026-10-22 16:50:26,678 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest remote get-url origin) successfully finished
+2026-10-22 16:50:27,536 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest fetch origin --prune --progress) successfully finished
+2026-10-22 16:50:27,562 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest merge-base --is-ancestor HEAD origin/v5) successfully finished
+2026-10-22 16:50:27,587 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest rev-parse HEAD) successfully finished
+2026-10-22 16:50:27,621 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-22 16:50:27,652 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest rev-parse origin/v5) successfully finished
+2026-10-22 16:50:27,685 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest describe origin/v5 --always --tags --long --abbrev=8) successfully finished
+2026-10-22 16:50:27,712 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest rev-list HEAD..13d772b1ebd43bc872b5a676c2391d181634ae6d --count) successfully finished
+2026-10-22 16:50:27,713 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/biqu/crowsnest
+Remote: origin
+Branch: v5
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: 13d772b1ebd43bc872b5a676c2391d181634ae6d
+Upstream Commit SHA: 13d772b1ebd43bc872b5a676c2391d181634ae6d
+Current Version: v5.0.12-3-g13d772b1
+Upstream Version: v5.0.12-3-g13d772b1
+Rollback Commit: 436042452f564f3d737e3b980a213f849a8a0562
+Rollback Branch: v5
+Rollback Version: v5.0.12-0-g43604245
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-10-22 16:50:27,714 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
+2026-10-22 16:50:27,714 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2026-10-22 16:50:59,278 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper fetch origin --prune --progress) successfully finished
+2026-10-22 16:50:59,304 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-22 16:51:01,089 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper pull --progress) successfully finished
+2026-10-22 16:51:01,151 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper status --porcelain -b) successfully finished
+2026-10-22 16:51:01,177 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper branch --list --no-color) successfully finished
+2026-10-22 16:51:01,224 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper remote get-url origin) successfully finished
+2026-10-22 16:51:01,252 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-10-22 16:51:01,276 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse HEAD) successfully finished
+2026-10-22 16:51:01,482 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-10-22 16:51:01,509 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse origin/master) successfully finished
+2026-10-22 16:51:01,699 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-10-22 16:51:01,725 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-list HEAD..ee2c6fb6b00b2b5d097ef70d0868df7d74943b51 --count) successfully finished
+2026-10-22 16:51:01,727 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/biqu/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: ee2c6fb6b00b2b5d097ef70d0868df7d74943b51
+Upstream Commit SHA: ee2c6fb6b00b2b5d097ef70d0868df7d74943b51
+Current Version: v0.13.0-816-gee2c6fb6
+Upstream Version: v0.13.0-816-gee2c6fb6
+Rollback Commit: c63b29510b1f9ff0a8d10ee55b29cb843fdba4e0
+Rollback Branch: master
+Rollback Version: v0.13.0-809-gc63b2951
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py', 'klippy/extras/probe_pressure.py', 'klippy/extras/z_offset_calibration.py']
+2026-10-22 16:51:01,727 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2026-10-22 16:51:01,728 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2026-10-22 16:51:01,830 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

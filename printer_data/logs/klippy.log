@@ -14495,3 +14495,54 @@ timeout = 600
 [save_variables]
 filename = /home/biqu/printer_data/config/saved_variables.cfg
 =======================
+Error loading template 'gcode_macro mainled_on:gcode'
+line 4: SET_PIN PIN=main_led VALUE={{ i * 0.05 }} # expected token ':', got '}'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 54, in __init__
+    self.template = env.from_string(script)
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 941, in from_string
+    return cls.from_code(self, self.compile(source), globals, None)
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<unknown>", line 4, in template
+jinja2.exceptions.TemplateSyntaxError: expected token ':', got '}'
+Unhandled exception during connect
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 54, in __init__
+    self.template = env.from_string(script)
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 941, in from_string
+    return cls.from_code(self, self.compile(source), globals, None)
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<unknown>", line 4, in template
+jinja2.exceptions.TemplateSyntaxError: expected token ':', got '}'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 130, in _connect
+    self._read_config()
+  File "/home/biqu/klipper/klippy/klippy.py", line 123, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/home/biqu/klipper/klippy/klippy.py", line 112, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 203, in load_config_prefix
+    return GCodeMacro(config)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 133, in __init__
+    self.template = gcode_macro.load_template(config, 'gcode')
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 90, in load_template
+    return TemplateWrapper(self.printer, self.env, name, script)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 60, in __init__
+    raise self.gcode.error(msg)
+gcode.CommandError: Error loading template 'gcode_macro mainled_on:gcode'
+line 4: SET_PIN PIN=main_led VALUE={{ i * 0.05 }} # expected token ':', got '}'
+webhooks client 281473784852048: New connection
+webhooks client 281473784852048: Client info {'program': 'Moonraker', 'version': 'v0.11.0-4-gb559b9a'}

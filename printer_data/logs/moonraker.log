@@ -1269,3 +1269,19 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryx6rIM3KxtB2N3P
 2026-10-22 18:34:29,760 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-10-22 18:34:30,031 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-10-22 18:34:30,527 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-22 18:39:59,364 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary98f2SKfbXx4BfQkf
+2026-10-22 18:39:59,410 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-10-22 18:39:59,434 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 75.08ms
+2026-10-22 18:40:00,293 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-10-22 18:40:01,556 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-10-22 18:40:07,689 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-10-22 18:40:07,693 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-10-22 18:40:07,940 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-10-22 18:40:08,224 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-10-22 18:40:08,705 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-22 18:40:51,942 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhbzH4CAExFduqj0N
+2026-10-22 18:40:51,987 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-10-22 18:40:52,012 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 74.50ms
+2026-10-22 18:40:52,884 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

@@ -1345,3 +1345,10 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary644bc36f78a4263
 2026-10-22 19:26:25,006 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-10-22 19:41:39,107 [websockets.py:write_to_socket()] - Websocket closed while writing: 281472829860736
 2026-10-22 19:41:44,027 [websockets.py:on_close()] - Websocket Closed: ID: 281472829860736 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
+2026-10-22 19:56:36,637 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.98ms
+2026-10-22 19:56:36,638 [websockets.py:open()] - Websocket Opened: ID: 281472829860256, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-22 19:56:36,647 [websockets.py:_handle_identify()] - Websocket 281472829860256 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-22 19:56:40,225 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.40ms
+2026-10-22 19:56:40,226 [websockets.py:open()] - Websocket Opened: ID: 281472830015040, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-22 19:56:40,235 [websockets.py:_handle_identify()] - Websocket 281472830015040 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-22 19:56:44,470 [websockets.py:on_close()] - Websocket Closed: ID: 281472830015040 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.25

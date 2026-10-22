@@ -975,3 +975,6 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQqsuOTHwnEVj5z
 2026-10-22 17:19:05,015 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-10-22 17:19:05,286 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-10-22 17:19:05,790 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-10-22 17:35:56,969 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4.40ms
+2026-10-22 17:35:56,970 [websockets.py:open()] - Websocket Opened: ID: 281472830657536, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-22 17:35:56,997 [websockets.py:_handle_identify()] - Websocket 281472830657536 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

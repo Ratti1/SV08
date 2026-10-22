@@ -1182,3 +1182,8 @@ Diverged: False
 Pinned Commit: None
 2026-10-22 17:58:23,191 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
 2026-10-22 17:58:23,191 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed
+2026-10-22 18:11:33,633 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPovWIieuoqAihq3X
+2026-10-22 18:11:33,668 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-10-22 18:11:33,690 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 60.04ms
+2026-10-22 18:11:34,765 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

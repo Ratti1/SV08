@@ -208,3 +208,9 @@ Klipper Version: v0.13.0-816-gee2c6fb6-dirty
 2026-10-23 18:48:24,750 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473640150256
 2026-10-23 18:48:28,218 [websockets.py:on_close()] - Websocket Closed: ID: 281473639359968 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
 2026-10-23 18:48:29,572 [websockets.py:on_close()] - Websocket Closed: ID: 281473640150256 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
+2026-10-23 19:00:36,798 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.12ms
+2026-10-23 19:00:36,799 [websockets.py:open()] - Websocket Opened: ID: 281473640223408, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-23 19:00:36,807 [websockets.py:_handle_identify()] - Websocket 281473640223408 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-23 19:00:36,824 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.69ms
+2026-10-23 19:00:36,825 [websockets.py:open()] - Websocket Opened: ID: 281473640224176, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-23 19:00:36,849 [websockets.py:_handle_identify()] - Websocket 281473640224176 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

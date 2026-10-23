@@ -201,3 +201,6 @@ Klipper Version: v0.13.0-816-gee2c6fb6-dirty
 2026-10-23 18:20:44,640 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2026-10-23 18:20:46,457 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.77
 2026-10-23 18:23:00,819 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.77
+2026-10-23 18:26:44,374 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.32ms
+2026-10-23 18:26:44,376 [websockets.py:open()] - Websocket Opened: ID: 281473640150256, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:158.0) Gecko/20100101 Firefox/158.0, Host Name: 192.168.1.46
+2026-10-23 18:26:44,388 [websockets.py:_handle_identify()] - Websocket 281473640150256 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

@@ -199,3 +199,12 @@ Git Repo mainsail-config: No warnings detected
 Git Repo crowsnest: No warnings detected
 Klipper Version: v0.13.0-816-gee2c6fb6-dirty
 2026-10-28 11:40:12,679 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-10-28 11:42:30,971 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=------------------------1badf608de898499
+2026-10-28 11:42:35,504 [application.py:post()] - Processing Uploaded File: obj_1_Assembly_PLA_0.2_1h10m.gcode
+2026-10-28 11:42:36,260 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2026-10-28 11:42:36,517 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-ew4_9ui4.json) successfully finished
+2026-10-28 11:42:36,520 [klippy_apis.py:start_print()] - Requesting Job Start, filename = obj_1_Assembly_PLA_0.2_1h10m.gcode
+2026-10-28 11:42:36,565 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 5596.38ms
+2026-10-28 11:42:36,602 [job_state.py:_send_job_event()] - Job Started: obj_1_Assembly_PLA_0.2_1h10m.gcode

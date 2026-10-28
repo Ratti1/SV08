@@ -208,3 +208,4 @@ Content-Type: multipart/form-data; boundary=------------------------1badf608de89
 2026-10-28 11:42:36,520 [klippy_apis.py:start_print()] - Requesting Job Start, filename = obj_1_Assembly_PLA_0.2_1h10m.gcode
 2026-10-28 11:42:36,565 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 5596.38ms
 2026-10-28 11:42:36,602 [job_state.py:_send_job_event()] - Job Started: obj_1_Assembly_PLA_0.2_1h10m.gcode
+2026-10-28 11:45:59,855 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished

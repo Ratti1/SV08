@@ -468,3 +468,21 @@ Content-Type: multipart/form-data; boundary=------------------------1badf608de89
 2026-10-28 13:28:10,159 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000255.jpg) successfully finished
 2026-10-28 13:28:15,487 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000256.jpg) successfully finished
 2026-10-28 13:28:21,351 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000257.jpg) successfully finished
+2026-10-28 13:28:26,879 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000258.jpg) successfully finished
+2026-10-28 13:28:32,243 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000259.jpg) successfully finished
+2026-10-28 13:28:37,745 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000260.jpg) successfully finished
+2026-10-28 13:28:43,035 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000261.jpg) successfully finished
+2026-10-28 13:28:48,335 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000262.jpg) successfully finished
+2026-10-28 13:28:53,570 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000263.jpg) successfully finished
+2026-10-28 13:28:58,697 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000264.jpg) successfully finished
+2026-10-28 13:29:04,094 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000265.jpg) successfully finished
+2026-10-28 13:29:09,324 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000266.jpg) successfully finished
+2026-10-28 13:29:14,688 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000267.jpg) successfully finished
+2026-10-28 13:29:19,952 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000268.jpg) successfully finished
+2026-10-28 13:29:24,878 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000269.jpg) successfully finished
+2026-10-28 13:29:29,072 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000270.jpg) successfully finished
+2026-10-28 13:29:32,608 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000271.jpg) successfully finished
+2026-10-28 13:29:35,273 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000272.jpg) successfully finished
+2026-10-28 13:29:37,200 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000273.jpg) successfully finished
+2026-10-28 13:29:42,365 [timelapse.py:render()] - start FFMPEG: /usr/bin/ffmpeg -r 30 -i '/tmp/timelapse/frame%6d.jpg' -threads 2 -g 5 -crf 23 -vcodec libx264 -pix_fmt yuv420p -an  '/tmp/timelapse/timelapse_obj_1_Assembly_PLA_0.2_1h10m.gcode_20261028_1329.mp4' -y
+2026-10-28 13:30:14,718 [timelapse.py:render()] - Rendering Video successful: timelapse_obj_1_Assembly_PLA_0.2_1h10m.gcode_20261028_1329.mp4

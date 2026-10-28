@@ -6991,3 +6991,23 @@ toolhead: max_velocity: 700.000000
 max_accel: 8000.000000
 minimum_cruise_ratio: 0.500000
 square_corner_velocity: 5.000000
+Stats 1182.5: gcodein=0 mcu: mcu_awake=0.052 mcu_task_avg=0.000048 mcu_task_stddev=0.000043 bytes_write=4925121 bytes_read=932401 bytes_retransmit=9 bytes_invalid=0 send_seq=96787 receive_seq=96787 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003068 extra_mcu: mcu_awake=0.020 mcu_task_avg=0.000042 mcu_task_stddev=0.000036 bytes_write=1240836 bytes_read=427678 bytes_retransmit=9 bytes_invalid=0 send_seq=27146 receive_seq=27146 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=23 upcoming_bytes=0 freq=72003361 adj=72000221 sd_pos=2279962 mcu_temp: temp=52.2 Host_temp: temp=64.6 Toolhead_Temp: temp=48.6 heater_bed: target=65 temp=65.0 pwm=0.242 print_time=1192.627 buffer_time=1.173 print_stall=0 extruder: target=220 temp=219.7 pwm=0.611 sysload=0.31 cputime=200.689 memavail=735384
+toolhead: max_velocity: 700.000000
+max_accel: 20000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+toolhead: max_velocity: 700.000000
+max_accel: 8000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+toolhead: max_velocity: 700.000000
+max_accel: 20000.000000
+minimum_cruise_ratio: 0.500000
+square_corner_velocity: 5.000000
+Stats 1183.5: gcodein=0 mcu: mcu_awake=0.052 mcu_task_avg=0.000048 mcu_task_stddev=0.000043 bytes_write=4932943 bytes_read=933441 bytes_retransmit=9 bytes_invalid=0 send_seq=96926 receive_seq=96926 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003068 extra_mcu: mcu_awake=0.020 mcu_task_avg=0.000042 mcu_task_stddev=0.000036 bytes_write=1242350 bytes_read=427968 bytes_retransmit=9 bytes_invalid=0 send_seq=27172 receive_seq=27172 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=51 upcoming_bytes=20 freq=72003363 adj=72000160 sd_pos=2283500 mcu_temp: temp=52.3 Host_temp: temp=68.7 Toolhead_Temp: temp=48.8 heater_bed: target=65 temp=65.0 pwm=0.180 print_time=1193.776 buffer_time=1.321 print_stall=0 extruder: target=220 temp=219.3 pwm=0.689 sysload=0.31 cputime=200.896 memavail=736080
+Stats 1184.5: gcodein=0 mcu: mcu_awake=0.052 mcu_task_avg=0.000048 mcu_task_stddev=0.000043 bytes_write=4941446 bytes_read=934538 bytes_retransmit=9 bytes_invalid=0 send_seq=97077 receive_seq=97077 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003068 extra_mcu: mcu_awake=0.020 mcu_task_avg=0.000042 mcu_task_stddev=0.000036 bytes_write=1244113 bytes_read=428275 bytes_retransmit=9 bytes_invalid=0 send_seq=27202 receive_seq=27202 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=7 upcoming_bytes=0 freq=72003364 adj=72000226 sd_pos=2287330 mcu_temp: temp=52.3 Host_temp: temp=68.6 Toolhead_Temp: temp=48.7 heater_bed: target=65 temp=65.0 pwm=0.130 print_time=1194.570 buffer_time=1.114 print_stall=0 extruder: target=220 temp=219.4 pwm=0.624 sysload=0.31 cputime=201.073 memavail=736160
+Reactor 1185.152 busy for 0.064 with:
+- 'VirtualSD.work_handler (virtual_sdcard.py:240)'
+Stats 1185.5: gcodein=0 mcu: mcu_awake=0.065 mcu_task_avg=0.000054 mcu_task_stddev=0.000053 bytes_write=4948830 bytes_read=935537 bytes_retransmit=9 bytes_invalid=0 send_seq=97208 receive_seq=97208 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003069 extra_mcu: mcu_awake=0.020 mcu_task_avg=0.000042 mcu_task_stddev=0.000036 bytes_write=1246348 bytes_read=428652 bytes_retransmit=9 bytes_invalid=0 send_seq=27240 receive_seq=27240 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=55 upcoming_bytes=0 freq=72003365 adj=72000251 sd_pos=2295630 mcu_temp: temp=52.4 Host_temp: temp=64.9 Toolhead_Temp: temp=48.8 heater_bed: target=65 temp=65.0 pwm=0.168 print_time=1195.677 buffer_time=1.221 print_stall=0 extruder: target=220 temp=219.8 pwm=0.545 sysload=0.31 cputime=201.338 memavail=735852
+Reactor 1186.208 busy for 0.064 with:
+- 'VirtualSD.work_handler (virtual_sdcard.py:240)'

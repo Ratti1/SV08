@@ -543,3 +543,6 @@ Content-Type: multipart/form-data; boundary=------------------------098b2256bfba
 2026-10-31 19:04:55,557 [websockets.py:open()] - Websocket Opened: ID: 281473258142880, Proxied: True, User Agent: Mozilla/5.0 (Android 16; Mobile; rv:159.0) Gecko/159.0 Firefox/159.0, Host Name: 192.168.1.46
 2026-10-31 19:04:55,567 [websockets.py:_handle_identify()] - Websocket 281473258142880 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-10-31 19:05:19,343 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000056.jpg) successfully finished
+2026-10-31 19:05:46,286 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000057.jpg) successfully finished
+2026-10-31 19:05:47,619 [websockets.py:on_close()] - Websocket Closed: ID: 281473258142880 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.05
+2026-10-31 19:06:15,182 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000058.jpg) successfully finished

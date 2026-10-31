@@ -536,3 +536,10 @@ Content-Type: multipart/form-data; boundary=------------------------098b2256bfba
 2026-10-31 19:03:12,540 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000051.jpg) successfully finished
 2026-10-31 19:03:37,453 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000052.jpg) successfully finished
 2026-10-31 19:04:02,917 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000053.jpg) successfully finished
+2026-10-31 19:04:28,421 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000054.jpg) successfully finished
+2026-10-31 19:04:53,837 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000055.jpg) successfully finished
+2026-10-31 19:04:55,552 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.32
+2026-10-31 19:04:55,556 [application.py:log_request()] - 101 GET /websocket (192.168.1.32 via 127.0.0.1) [_TRUSTED_USER_] 7.21ms
+2026-10-31 19:04:55,557 [websockets.py:open()] - Websocket Opened: ID: 281473258142880, Proxied: True, User Agent: Mozilla/5.0 (Android 16; Mobile; rv:159.0) Gecko/159.0 Firefox/159.0, Host Name: 192.168.1.46
+2026-10-31 19:04:55,567 [websockets.py:_handle_identify()] - Websocket 281473258142880 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-10-31 19:05:19,343 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000056.jpg) successfully finished

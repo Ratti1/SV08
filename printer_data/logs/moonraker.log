@@ -479,3 +479,4 @@ Content-Type: multipart/form-data; boundary=------------------------098b2256bfba
 2026-10-31 18:35:11,346 [websockets.py:_handle_identify()] - Websocket 281473258586464 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-10-31 18:36:28,611 [klippy_apis.py:start_print()] - Requesting Job Start, filename = obj_1_Assembly_PLA_0.2_1h10m.gcode
 2026-10-31 18:36:28,840 [job_state.py:_send_job_event()] - Job Started: obj_1_Assembly_PLA_0.2_1h10m.gcode
+2026-10-31 18:39:38,839 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished

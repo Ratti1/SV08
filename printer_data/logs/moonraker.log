@@ -210,3 +210,4 @@ Content-Type: multipart/form-data; boundary=------------------------098b2256bfba
 2026-10-31 14:48:40,147 [klippy_apis.py:start_print()] - Requesting Job Start, filename = KFKMS_Hinten_Neu_PLA_0.2_1h59m.gcode
 2026-10-31 14:48:40,192 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 2734.56ms
 2026-10-31 14:48:40,403 [job_state.py:_send_job_event()] - Job Started: KFKMS_Hinten_Neu_PLA_0.2_1h59m.gcode
+2026-10-31 14:52:45,681 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished

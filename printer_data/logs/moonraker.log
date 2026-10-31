@@ -480,3 +480,10 @@ Content-Type: multipart/form-data; boundary=------------------------098b2256bfba
 2026-10-31 18:36:28,611 [klippy_apis.py:start_print()] - Requesting Job Start, filename = obj_1_Assembly_PLA_0.2_1h10m.gcode
 2026-10-31 18:36:28,840 [job_state.py:_send_job_event()] - Job Started: obj_1_Assembly_PLA_0.2_1h10m.gcode
 2026-10-31 18:39:38,839 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished
+2026-10-31 18:40:46,983 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473258589920
+2026-10-31 18:40:48,147 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000002.jpg) successfully finished
+2026-10-31 18:40:51,513 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473258586464
+2026-10-31 18:40:51,865 [websockets.py:on_close()] - Websocket Closed: ID: 281473258589920 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
+2026-10-31 18:40:56,346 [websockets.py:on_close()] - Websocket Closed: ID: 281473258586464 Close Code: None, Close Reason: None, Pong Time Elapsed: 24.99
+2026-10-31 18:41:09,243 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000003.jpg) successfully finished
+2026-10-31 18:41:28,603 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000004.jpg) successfully finished

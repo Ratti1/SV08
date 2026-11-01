@@ -202,3 +202,4 @@ Klipper Version: v0.13.0-816-gee2c6fb6-dirty
 2026-11-01 00:17:30,178 [application.py:log_request()] - 101 GET /websocket (192.168.1.32 via 127.0.0.1) [_TRUSTED_USER_] 8.87ms
 2026-11-01 00:17:30,179 [websockets.py:open()] - Websocket Opened: ID: 281473258178304, Proxied: True, User Agent: Mozilla/5.0 (Android 16; Mobile; rv:159.0) Gecko/159.0 Firefox/159.0, Host Name: 192.168.1.46
 2026-11-01 00:17:30,242 [websockets.py:_handle_identify()] - Websocket 281473258178304 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-01 00:17:41,426 [websockets.py:on_close()] - Websocket Closed: ID: 281473258178304 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.98

@@ -296,3 +296,10 @@ Klipper Version: v0.13.0-816-gee2c6fb6-dirty
 2026-11-02 18:12:02,857 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000094.jpg) successfully finished
 2026-11-02 18:12:19,556 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000095.jpg) successfully finished
 2026-11-02 18:12:36,373 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000096.jpg) successfully finished
+2026-11-02 18:12:53,151 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000097.jpg) successfully finished
+2026-11-02 18:13:10,218 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000098.jpg) successfully finished
+2026-11-02 18:13:27,546 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000099.jpg) successfully finished
+2026-11-02 18:13:44,155 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000100.jpg) successfully finished
+2026-11-02 18:13:46,768 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 5.99ms
+2026-11-02 18:13:46,770 [websockets.py:open()] - Websocket Opened: ID: 281473371207376, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0, Host Name: 192.168.1.46
+2026-11-02 18:13:46,778 [websockets.py:_handle_identify()] - Websocket 281473371207376 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

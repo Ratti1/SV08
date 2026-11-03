@@ -209,3 +209,4 @@ Content-Type: multipart/form-data; boundary=------------------------29ee0475cbc2
 2026-11-03 17:23:16,118 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4618.55ms
 2026-11-03 17:23:16,213 [job_state.py:_send_job_event()] - Job Started: support-1_PLA_0.2_1h20m.gcode
 2026-11-03 17:27:27,308 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000001.jpg) successfully finished
+2026-11-03 17:30:46,936 [shell_command.py:_check_proc_success()] - Command (wget http://localhost/webcam/?action=snapshot -O /tmp/timelapse/frame000002.jpg) successfully finished

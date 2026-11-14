@@ -612,3 +612,4 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarya10d8b47d86355f
 2026-11-14 18:12:55,492 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 32.05ms
 2026-11-14 18:12:55,495 [websockets.py:open()] - Websocket Opened: ID: 281473034518384, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-14 18:12:55,506 [websockets.py:_handle_identify()] - Websocket 281473034518384 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-14 19:14:23,566 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.77

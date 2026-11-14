@@ -601,3 +601,5 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarya10d8b47d86355f
 2026-11-14 15:37:29,004 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-14 15:37:29,302 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-14 15:37:29,788 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-14 15:39:10,946 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-11-14 15:40:10,947 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds

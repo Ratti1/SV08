@@ -490,3 +490,44 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryb65fb5a2cae9042
 2026-11-14 15:18:32,377 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-11-14 15:21:48,551 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2026-11-14 15:22:48,553 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2026-11-14 15:23:48,554 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.00 seconds
+2026-11-14 15:24:31,502 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2026-11-14 15:24:31,508 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1794669841.904212, Usage: 2.33%, Memory: 36328 kB
+System Time: 1794669842.900477, Usage: 3.06%, Memory: 36328 kB
+System Time: 1794669843.900939, Usage: 2.21%, Memory: 36328 kB
+System Time: 1794669844.906201, Usage: 2.53%, Memory: 36328 kB
+System Time: 1794669845.902375, Usage: 4.07%, Memory: 36328 kB
+System Time: 1794669846.902498, Usage: 1.92%, Memory: 36328 kB
+System Time: 1794669847.906190, Usage: 3.16%, Memory: 36328 kB
+System Time: 1794669848.903706, Usage: 2.41%, Memory: 36328 kB
+System Time: 1794669849.904510, Usage: 2.0%, Memory: 36328 kB
+System Time: 1794669850.911253, Usage: 2.31%, Memory: 36328 kB
+System Time: 1794669851.911064, Usage: 3.05%, Memory: 36328 kB
+System Time: 1794669852.910632, Usage: 3.11%, Memory: 36328 kB
+System Time: 1794669853.912299, Usage: 2.95%, Memory: 36328 kB
+System Time: 1794669854.913404, Usage: 3.35%, Memory: 36328 kB
+System Time: 1794669855.912744, Usage: 3.18%, Memory: 36328 kB
+System Time: 1794669856.913711, Usage: 3.04%, Memory: 36328 kB
+System Time: 1794669857.913883, Usage: 4.78%, Memory: 36328 kB
+System Time: 1794669858.915012, Usage: 3.14%, Memory: 36328 kB
+System Time: 1794669859.915469, Usage: 3.15%, Memory: 36328 kB
+System Time: 1794669860.914276, Usage: 3.15%, Memory: 36328 kB
+System Time: 1794669861.917884, Usage: 2.91%, Memory: 36328 kB
+System Time: 1794669862.916785, Usage: 3.1%, Memory: 36328 kB
+System Time: 1794669863.918096, Usage: 3.12%, Memory: 36328 kB
+System Time: 1794669864.918448, Usage: 3.44%, Memory: 36328 kB
+System Time: 1794669865.914498, Usage: 2.78%, Memory: 36328 kB
+System Time: 1794669866.914914, Usage: 2.18%, Memory: 36328 kB
+System Time: 1794669867.927399, Usage: 3.39%, Memory: 36328 kB
+System Time: 1794669868.916683, Usage: 3.1%, Memory: 36328 kB
+System Time: 1794669869.916787, Usage: 2.03%, Memory: 36328 kB
+System Time: 1794669870.917911, Usage: 2.24%, Memory: 36328 kB
+CPU Temperature: 60.326
+2026-11-14 15:24:31,658 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+

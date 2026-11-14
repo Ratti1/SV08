@@ -409,3 +409,71 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryd8dea4616cc82ed
 2026-11-14 15:10:20,170 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 91.74ms
 2026-11-14 15:10:21,059 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-11-14 15:10:22,331 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-14 15:10:31,090 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-14 15:10:31,097 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-14 15:10:31,341 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-14 15:10:31,663 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-14 15:10:32,108 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-14 15:10:43,092 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/biqu/fluidd
+Local Version: v1.38.0
+Remote Version: v1.38.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.38.0/fluidd.zip
+Download Size: 4427087
+Content Type: application/zip
+Rollback Version: v1.37.7
+Rollback Repo: fluidd-core/fluidd
+2026-11-14 15:10:43,902 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper fetch origin --prune --progress) successfully finished
+2026-11-14 15:10:43,928 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-11-14 15:10:45,784 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper pull --progress) successfully finished
+2026-11-14 15:10:45,861 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper status --porcelain -b) successfully finished
+2026-11-14 15:10:45,887 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper branch --list --no-color) successfully finished
+2026-11-14 15:10:45,937 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper remote get-url origin) successfully finished
+2026-11-14 15:10:45,970 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-11-14 15:10:45,994 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse HEAD) successfully finished
+2026-11-14 15:10:46,213 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-11-14 15:10:46,238 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse origin/master) successfully finished
+2026-11-14 15:10:46,430 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-11-14 15:10:46,456 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-list HEAD..29d4ec2d6d840ee839333306003a400da186d41d --count) successfully finished
+2026-11-14 15:10:46,458 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/biqu/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 29d4ec2d6d840ee839333306003a400da186d41d
+Upstream Commit SHA: 29d4ec2d6d840ee839333306003a400da186d41d
+Current Version: v0.13.0-827-g29d4ec2d
+Upstream Version: v0.13.0-827-g29d4ec2d
+Rollback Commit: ee2c6fb6b00b2b5d097ef70d0868df7d74943b51
+Rollback Branch: master
+Rollback Version: v0.13.0-816-gee2c6fb6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py', 'klippy/extras/probe_pressure.py', 'klippy/extras/z_offset_calibration.py']
+2026-11-14 15:10:46,459 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2026-11-14 15:10:46,459 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2026-11-14 15:10:46,536 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-14 15:11:08,180 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-14 15:11:10,814 [server.py:add_log_rollover_item()] - Klipper Version: v0.13.0-827-g29d4ec2d-dirty
+2026-11-14 15:11:13,869 [websockets.py:on_close()] - Websocket Closed: ID: 281473034709936 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.39
+2026-11-14 15:11:14,391 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.05ms
+2026-11-14 15:11:14,392 [websockets.py:open()] - Websocket Opened: ID: 281473034709456, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
+2026-11-14 15:11:14,413 [websockets.py:_handle_identify()] - Websocket 281473034709456 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-14 15:11:15,161 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-14 15:11:15,167 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-14 15:11:15,462 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-14 15:11:15,683 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-14 15:11:16,175 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']

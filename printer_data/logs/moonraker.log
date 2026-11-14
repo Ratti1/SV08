@@ -477,3 +477,14 @@ Repo Warnings:
 2026-11-14 15:11:15,462 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-14 15:11:15,683 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-14 15:11:16,175 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-14 15:18:23,045 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundaryb65fb5a2cae9042882e0b86f5dde25c4
+2026-11-14 15:18:23,073 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-11-14 15:18:23,086 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 43.61ms
+2026-11-14 15:18:23,948 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-14 15:18:25,214 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-14 15:18:31,359 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-14 15:18:31,361 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-14 15:18:31,610 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-14 15:18:31,882 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-14 15:18:32,377 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']

@@ -539,3 +539,46 @@ Printer is shutdown
 2026-11-14 15:25:40,569 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-14 15:25:41,033 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-11-14 15:28:02,306 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-11-14 15:29:02,309 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.01 seconds
+2026-11-14 15:29:29,492 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2026-11-14 15:29:29,502 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1794670140.068063, Usage: 2.07%, Memory: 18348 kB
+System Time: 1794670141.073384, Usage: 2.64%, Memory: 18348 kB
+System Time: 1794670142.069316, Usage: 2.8%, Memory: 18352 kB
+System Time: 1794670143.069746, Usage: 3.47%, Memory: 18352 kB
+System Time: 1794670144.076384, Usage: 2.46%, Memory: 18352 kB
+System Time: 1794670145.076787, Usage: 3.45%, Memory: 18352 kB
+System Time: 1794670146.075029, Usage: 3.11%, Memory: 18356 kB
+System Time: 1794670147.076375, Usage: 2.91%, Memory: 18356 kB
+System Time: 1794670148.072185, Usage: 4.23%, Memory: 18360 kB
+System Time: 1794670149.072295, Usage: 2.0%, Memory: 18360 kB
+System Time: 1794670150.076996, Usage: 2.48%, Memory: 18364 kB
+System Time: 1794670151.076768, Usage: 2.85%, Memory: 18364 kB
+System Time: 1794670152.078047, Usage: 2.88%, Memory: 18364 kB
+System Time: 1794670153.078332, Usage: 2.99%, Memory: 18364 kB
+System Time: 1794670154.078233, Usage: 2.96%, Memory: 18364 kB
+System Time: 1794670155.078663, Usage: 3.2%, Memory: 18364 kB
+System Time: 1794670156.080142, Usage: 2.89%, Memory: 18364 kB
+System Time: 1794670157.080288, Usage: 2.86%, Memory: 18364 kB
+System Time: 1794670158.081203, Usage: 4.92%, Memory: 18364 kB
+System Time: 1794670159.075813, Usage: 2.77%, Memory: 18364 kB
+System Time: 1794670160.075339, Usage: 1.96%, Memory: 18364 kB
+System Time: 1794670161.082989, Usage: 2.43%, Memory: 18364 kB
+System Time: 1794670162.081088, Usage: 3.26%, Memory: 18364 kB
+System Time: 1794670163.077735, Usage: 2.76%, Memory: 18364 kB
+System Time: 1794670164.078761, Usage: 2.28%, Memory: 18396 kB
+System Time: 1794670165.082880, Usage: 2.56%, Memory: 18396 kB
+System Time: 1794670166.082669, Usage: 3.04%, Memory: 18396 kB
+System Time: 1794670167.083573, Usage: 2.88%, Memory: 18400 kB
+System Time: 1794670168.084856, Usage: 4.64%, Memory: 18404 kB
+System Time: 1794670169.084388, Usage: 2.97%, Memory: 18404 kB
+CPU Temperature: 56.924
+2026-11-14 15:29:29,768 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2026-11-14 15:29:46,746 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-14 15:29:48,069 [klippy_connection.py:_do_connect()] - Klippy Connection Established

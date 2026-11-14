@@ -631,3 +631,5 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarya10d8b47d86355f
 2026-11-14 19:48:08,673 [websockets.py:open()] - Websocket Opened: ID: 281473032976224, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
 2026-11-14 19:48:08,707 [websockets.py:_handle_identify()] - Websocket 281473032976224 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-11-14 19:48:22,520 [websockets.py:on_close()] - Websocket Closed: ID: 281473032976224 Close Code: None, Close Reason: None, Pong Time Elapsed: 3.84
+2026-11-14 20:32:34,145 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473034708928
+2026-11-14 20:32:39,136 [websockets.py:on_close()] - Websocket Closed: ID: 281473034708928 Close Code: None, Close Reason: None, Pong Time Elapsed: 24.96

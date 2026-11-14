@@ -587,3 +587,5 @@ Printer is shutdown
 2026-11-14 15:29:56,128 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-14 15:29:56,429 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-14 15:29:56,897 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-14 15:31:52,518 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2026-11-14 15:32:52,521 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds

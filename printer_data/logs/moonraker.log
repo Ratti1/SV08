@@ -5494,3 +5494,9 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2026-11-15 20:26:55,418 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundarycae81ef2637afaeaa43cf68f261cd947
+2026-11-15 20:26:55,477 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-11-15 20:26:55,506 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 91.35ms
+2026-11-15 20:26:55,541 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 20:26:56,806 [klippy_connection.py:_do_connect()] - Klippy Connection Established

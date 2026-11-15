@@ -4408,3 +4408,24 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2026-11-15 10:54:25,188 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary3d3567db11ee01d7bb42654b3d7e805f
+2026-11-15 10:54:25,228 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:54:25,250 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 65.64ms
+2026-11-15 10:54:25,305 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 10:54:26,568 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 10:54:29,035 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 10:54:29,038 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 10:54:29,041 [klippy_connection.py:_check_ready()] - 
+Invalid glyph line in logo_0
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2026-11-15 10:54:59,572 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundaryd736704c24c5e7ba686336d96597f08a
+2026-11-15 10:54:59,617 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:54:59,634 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 66.10ms
+2026-11-15 10:54:59,672 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 10:55:00,935 [klippy_connection.py:_do_connect()] - Klippy Connection Established

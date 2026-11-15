@@ -5137,3 +5137,6 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryc7f8ffd7b5407b0
 2026-11-15 16:25:12,225 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2026-11-15 16:25:18,552 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
 2026-11-15 16:25:18,555 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 16:25:18,804 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-15 16:25:19,084 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-15 16:25:19,827 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']

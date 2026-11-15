@@ -4542,3 +4542,4 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryb81cbd55c124d9e
 2026-11-15 12:12:15,663 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4.98ms
 2026-11-15 12:12:15,664 [websockets.py:open()] - Websocket Opened: ID: 281473390242976, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-15 12:12:15,677 [websockets.py:_handle_identify()] - Websocket 281473390242976 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-15 12:22:35,856 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473390242976

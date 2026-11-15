@@ -5479,3 +5479,18 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarycfba03518ab91ad
 2026-11-15 20:22:57,894 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.58ms
 2026-11-15 20:22:57,895 [websockets.py:open()] - Websocket Opened: ID: 281472974397984, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-15 20:22:57,915 [websockets.py:_handle_identify()] - Websocket 281472974397984 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-15 20:24:41,866 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary9e6a296cbe2ed2523cd5a54eea26240a
+2026-11-15 20:24:41,920 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-11-15 20:24:41,941 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 79.66ms
+2026-11-15 20:24:42,827 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 20:24:44,095 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 20:24:46,436 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 20:24:46,438 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 20:24:46,442 [klippy_connection.py:_check_ready()] - 
+Option 'min_x' in section 'bed_mesh default' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+

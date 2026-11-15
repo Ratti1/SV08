@@ -28827,3 +28827,8 @@ Stats 498.6: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000016 mcu_task_stdde
 Reactor 506.655 busy for 0.076 with:
 - 'PrinterLCD.screen_update_event (display.py:222)'
 Unknown command:"{ACTION_RESPOND_INFO(""
+Stats 648.8: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000016 mcu_task_stddev=0.000010 bytes_write=11714 bytes_read=34974 bytes_retransmit=9 bytes_invalid=0 send_seq=675 receive_seq=675 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003619 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000008 bytes_write=2868 bytes_read=35186 bytes_retransmit=9 bytes_invalid=0 send_seq=378 receive_seq=378 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003775 adj=72000180 mcu_temp: temp=28.8 Host_temp: temp=45.0 Toolhead_Temp: temp=32.7 heater_bed: target=0 temp=20.4 pwm=0.000 print_time=210.348 buffer_time=0.714 print_stall=0 extruder: target=0 temp=21.5 pwm=0.000 sysload=0.30 cputime=50.781 memavail=752748
+Attempting MCU 'mcu' reset command
+Attempting MCU 'extra_mcu' reset command
+b'Got EOF when reading from device'
+webhooks client 281473398277456: Disconnected

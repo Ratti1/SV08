@@ -52352,3 +52352,32 @@ Index |  Tool Adjusted  |   Probe
 ...points 50 through 80 truncated
 Starting heater checks for extruder
 Starting heater checks for heater_bed
+webhooks: registering remote method 'shutdown_machine' for connection id: 281473366474320
+webhooks: registering remote method 'reboot_machine' for connection id: 281473366474320
+webhooks: registering remote method 'pause_job_queue' for connection id: 281473366474320
+webhooks: registering remote method 'start_job_queue' for connection id: 281473366474320
+webhooks: registering remote method 'timelapse_newframe' for connection id: 281473366474320
+webhooks: registering remote method 'timelapse_saveFrames' for connection id: 281473366474320
+webhooks: registering remote method 'timelapse_render' for connection id: 281473366474320
+Reactor 6389.565 busy for 0.069 with:
+- 'ClientConnection.process_received (webhooks.py:237)',
+- 'ClientConnection.process_received.<locals>.<lambda> (webhooks.py:263)',
+- 'ClientConnection.process_received.<locals>.<lambda> (webhooks.py:263)'
+Unknown display_data group 'default'
+Script running error
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/delayed_gcode.py", line 34, in _gcode_timer_event
+    self.gcode.run_script(self.timer_gcode.render())
+  File "/home/biqu/klipper/klippy/gcode.py", line 241, in run_script
+    self._process_commands(script.split('\n'), need_ack=False)
+  File "/home/biqu/klipper/klippy/gcode.py", line 223, in _process_commands
+    handler(gcmd)
+  File "/home/biqu/klipper/klippy/gcode.py", line 151, in <lambda>
+    func = lambda params: origfunc(self._get_extended_params(params))
+  File "/home/biqu/klipper/klippy/gcode.py", line 161, in <lambda>
+    handler = lambda gcmd: self._cmd_mux(cmd, gcmd)
+  File "/home/biqu/klipper/klippy/gcode.py", line 336, in _cmd_mux
+    values[key_param](gcmd)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 270, in cmd_SET_DISPLAY_GROUP
+    raise gcmd.error("Unknown display_data group '%s'" % (group,))
+gcode.CommandError: Unknown display_data group 'default'

@@ -5412,3 +5412,33 @@ Rollback Repo: fluidd-core/fluidd
 2026-11-15 19:28:20,131 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest status --porcelain -b) successfully finished
 2026-11-15 19:28:20,160 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest branch --list --no-color) successfully finished
 2026-11-15 19:28:20,214 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest remote get-url origin) successfully finished
+2026-11-15 19:28:21,102 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest fetch origin --prune --progress) successfully finished
+2026-11-15 19:28:21,131 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest merge-base --is-ancestor HEAD origin/v5) successfully finished
+2026-11-15 19:28:21,159 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest rev-parse HEAD) successfully finished
+2026-11-15 19:28:21,196 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-11-15 19:28:21,224 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest rev-parse origin/v5) successfully finished
+2026-11-15 19:28:21,260 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest describe origin/v5 --always --tags --long --abbrev=8) successfully finished
+2026-11-15 19:28:21,293 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest rev-list HEAD..13d772b1ebd43bc872b5a676c2391d181634ae6d --count) successfully finished
+2026-11-15 19:28:21,294 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/biqu/crowsnest
+Remote: origin
+Branch: v5
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Recovery URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: 13d772b1ebd43bc872b5a676c2391d181634ae6d
+Upstream Commit SHA: 13d772b1ebd43bc872b5a676c2391d181634ae6d
+Current Version: v5.0.12-3-g13d772b1
+Upstream Version: v5.0.12-3-g13d772b1
+Rollback Commit: 436042452f564f3d737e3b980a213f849a8a0562
+Rollback Branch: v5
+Rollback Version: v5.0.12-0-g43604245
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-11-15 19:28:21,295 [base_deploy.py:log_info()] - Git Repo crowsnest: Channel: dev
+2026-11-15 19:28:21,295 [base_deploy.py:log_info()] - Git Repo crowsnest: Validity check for git repo passed

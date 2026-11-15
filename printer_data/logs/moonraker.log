@@ -5500,3 +5500,12 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarycae81ef2637afae
 2026-11-15 20:26:55,506 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 91.35ms
 2026-11-15 20:26:55,541 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-11-15 20:26:56,806 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 20:26:59,396 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 20:26:59,400 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 20:26:59,405 [klippy_connection.py:_check_ready()] - 
+Option 'min_x' in section 'bed_mesh default' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+

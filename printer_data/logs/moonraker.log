@@ -4378,3 +4378,18 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary8be840c27ce3949
 2026-11-15 09:40:36,723 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
 2026-11-15 10:43:55,928 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.77
 2026-11-15 10:51:09,760 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.77
+2026-11-15 10:51:46,833 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary7c68c80165f9dd2d4b017adec40007f0
+2026-11-15 10:51:46,875 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:51:46,897 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 66.99ms
+2026-11-15 10:51:47,758 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 10:51:49,023 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 10:51:51,599 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 10:51:51,602 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 10:51:51,605 [klippy_connection.py:_check_ready()] - 
+Invalid glyph line in logo_0
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+

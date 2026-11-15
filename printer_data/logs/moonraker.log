@@ -5143,3 +5143,7 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryc7f8ffd7b5407b0
 2026-11-15 16:40:29,434 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473020252656
 2026-11-15 16:40:34,191 [websockets.py:on_close()] - Websocket Closed: ID: 281473020252656 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
 2026-11-15 17:25:26,540 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.77
+2026-11-15 18:54:14,090 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.77
+2026-11-15 18:54:14,094 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.33ms
+2026-11-15 18:54:14,095 [websockets.py:open()] - Websocket Opened: ID: 281472977390848, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
+2026-11-15 18:54:14,106 [websockets.py:_handle_identify()] - Websocket 281472977390848 Client Identified - Name: mainsail, Version: 2.19.0, Type: web

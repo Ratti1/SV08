@@ -4456,3 +4456,20 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary6231703650e6f15
 2026-11-15 10:57:45,393 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-15 10:57:45,665 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-15 10:57:46,410 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-15 10:58:51,544 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary418085054691e6fda8e74f54b5543880
+2026-11-15 10:58:51,591 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:58:51,619 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 78.75ms
+2026-11-15 10:58:52,503 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 10:58:53,764 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 10:59:00,103 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 10:59:00,106 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 10:59:00,355 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-15 10:59:00,626 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-15 10:59:01,371 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-15 10:59:24,006 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary44d7e734682923301248327fdc40c64d
+2026-11-15 10:59:24,045 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:59:24,068 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 66.28ms
+2026-11-15 10:59:24,950 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 10:59:26,213 [klippy_connection.py:_do_connect()] - Klippy Connection Established

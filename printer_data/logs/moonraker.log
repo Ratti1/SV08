@@ -5015,3 +5015,7 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary4decf972d2a93e1
 2026-11-15 15:58:41,483 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-15 15:58:41,757 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-15 15:58:42,510 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-15 16:06:51,582 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary21ba59a431d3e4ca888d8fad1bf553df
+2026-11-15 16:06:51,622 [application.py:post()] - Processing Uploaded File: display_glyph
+2026-11-15 16:06:51,644 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 66.26ms

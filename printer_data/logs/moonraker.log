@@ -2046,3 +2046,8 @@ Properties:
 2026-11-15 08:13:45,396 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 16.31ms
 2026-11-15 08:13:45,398 [websockets.py:open()] - Websocket Opened: ID: 281472710240000, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-15 08:13:45,411 [websockets.py:_handle_identify()] - Websocket 281472710240000 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-15 08:26:19,981 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundaryebb78cdaafef1ef0789c8829d58e9ba6
+2026-11-15 08:26:20,020 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 08:26:20,042 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 66.41ms
+2026-11-15 08:26:20,922 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

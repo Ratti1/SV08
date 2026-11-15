@@ -4473,3 +4473,19 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary44d7e7346829233
 2026-11-15 10:59:24,068 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 66.28ms
 2026-11-15 10:59:24,950 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-11-15 10:59:26,213 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 10:59:33,714 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 10:59:33,718 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 10:59:33,965 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-15 10:59:34,273 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-15 10:59:34,743 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-15 10:59:56,745 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundarybe3f350ff5ab16401154cf309c47dca7
+2026-11-15 10:59:56,784 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:59:56,807 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 65.63ms
+2026-11-15 10:59:57,709 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 10:59:58,979 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 11:00:05,182 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 11:00:05,185 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 11:00:05,434 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-15 11:00:05,706 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-15 11:00:06,201 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']

@@ -5243,3 +5243,172 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryc6a0bc0ea3d9ece
 2026-11-15 19:24:30,686 [websockets.py:_handle_identify()] - Websocket 281472974401296 Client Identified - Name: fluidd, Version: 1.38.0-9331d7e, Type: web
 2026-11-15 19:24:30,717 [file_manager.py:get_file_list()] - Updating File List <config>...
 2026-11-15 19:24:31,056 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.history.get_job, Code: -32601, Message: Invalid job uid: 000002
+2026-11-15 19:28:12,712 [base_deploy.py:log_info()] - PackageKit: Detected 0 package updates:
+
+2026-11-15 19:28:13,075 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker status --porcelain -b) successfully finished
+2026-11-15 19:28:13,107 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker branch --list --no-color) successfully finished
+2026-11-15 19:28:13,162 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker remote get-url origin) successfully finished
+2026-11-15 19:28:14,370 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker fetch origin --prune --progress) successfully finished
+2026-11-15 19:28:14,401 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-11-15 19:28:14,430 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker rev-parse HEAD) successfully finished
+2026-11-15 19:28:14,474 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-11-15 19:28:14,505 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker rev-parse origin/master) successfully finished
+2026-11-15 19:28:14,536 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-11-15 19:28:14,565 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker rev-list HEAD..b559b9a81161f958a43c2f527b6ad96f73310d5d --count) successfully finished
+2026-11-15 19:28:14,567 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/biqu/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker
+Recovery URL: https://github.com/Arksine/moonraker
+Current Commit SHA: b559b9a81161f958a43c2f527b6ad96f73310d5d
+Upstream Commit SHA: b559b9a81161f958a43c2f527b6ad96f73310d5d
+Current Version: v0.11.0-4-gb559b9a8
+Upstream Version: v0.11.0-4-gb559b9a8
+Rollback Commit: 9e676eba6b02661a4dfa3ec6e7ac3f3504498e6d
+Rollback Branch: master
+Rollback Version: v0.11.0-3-g9e676eba
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['moonraker/components/timelapse.py']
+2026-11-15 19:28:14,568 [base_deploy.py:log_info()] - Git Repo moonraker: Channel: dev
+2026-11-15 19:28:14,568 [base_deploy.py:log_info()] - Git Repo moonraker: Validity check for git repo passed
+2026-11-15 19:28:14,704 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper status --porcelain -b) successfully finished
+2026-11-15 19:28:14,733 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper branch --list --no-color) successfully finished
+2026-11-15 19:28:14,788 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper remote get-url origin) successfully finished
+2026-11-15 19:28:15,790 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper fetch origin --prune --progress) successfully finished
+2026-11-15 19:28:15,819 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-11-15 19:28:15,846 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse HEAD) successfully finished
+2026-11-15 19:28:16,091 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-11-15 19:28:16,119 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-parse origin/master) successfully finished
+2026-11-15 19:28:16,312 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-11-15 19:28:16,341 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/klipper rev-list HEAD..29d4ec2d6d840ee839333306003a400da186d41d --count) successfully finished
+2026-11-15 19:28:16,343 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/biqu/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 29d4ec2d6d840ee839333306003a400da186d41d
+Upstream Commit SHA: 29d4ec2d6d840ee839333306003a400da186d41d
+Current Version: v0.13.0-827-g29d4ec2d
+Upstream Version: v0.13.0-827-g29d4ec2d
+Rollback Commit: ee2c6fb6b00b2b5d097ef70d0868df7d74943b51
+Rollback Branch: master
+Rollback Version: v0.13.0-816-gee2c6fb6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/gcode_shell_command.py', 'klippy/extras/probe_pressure.py', 'klippy/extras/z_offset_calibration.py']
+2026-11-15 19:28:16,343 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2026-11-15 19:28:16,343 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2026-11-15 19:28:16,428 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse status --porcelain -b) successfully finished
+2026-11-15 19:28:16,456 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse branch --list --no-color) successfully finished
+2026-11-15 19:28:16,512 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse remote get-url origin) successfully finished
+2026-11-15 19:28:17,410 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse fetch origin --prune --progress) successfully finished
+2026-11-15 19:28:17,445 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse merge-base --is-ancestor HEAD origin/main) successfully finished
+2026-11-15 19:28:17,478 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse rev-parse HEAD) successfully finished
+2026-11-15 19:28:17,531 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-11-15 19:28:17,559 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse rev-parse origin/main) successfully finished
+2026-11-15 19:28:17,609 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse describe origin/main --always --tags --long --abbrev=8) successfully finished
+2026-11-15 19:28:17,658 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/moonraker-timelapse rev-list HEAD..c7fff11e542b95e0e15b8bb1443cea8159ac0274 --count) successfully finished
+2026-11-15 19:28:17,660 [git_deploy.py:log_repo_info()] - Git Repo timelapse Detected:
+Owner: mainsail-crew
+Repository Name: moonraker-timelapse
+Path: /home/biqu/moonraker-timelapse
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Recovery URL: https://github.com/mainsail-crew/moonraker-timelapse.git
+Current Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Upstream Commit SHA: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Current Version: v0.0.1-143-gc7fff11e
+Upstream Version: v0.0.1-143-gc7fff11e
+Rollback Commit: c7fff11e542b95e0e15b8bb1443cea8159ac0274
+Rollback Branch: main
+Rollback Version: v0.0.1-143-gc7fff11e
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-11-15 19:28:17,661 [base_deploy.py:log_info()] - Git Repo timelapse: Channel: dev
+2026-11-15 19:28:17,662 [base_deploy.py:log_info()] - Git Repo timelapse: Validity check for git repo passed
+2026-11-15 19:28:18,132 [base_deploy.py:log_info()] - Web Client mainsail: Detected
+Repo: mainsail-crew/mainsail
+Channel: stable
+Path: /home/biqu/mainsail
+Local Version: v2.19.0
+Remote Version: v2.19.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/mainsail-crew/mainsail/releases/download/v2.19.0/mainsail.zip
+Download Size: 3137812
+Content Type: application/zip
+Rollback Version: v2.18.2
+Rollback Repo: mainsail-crew/mainsail
+2026-11-15 19:28:18,302 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config status --porcelain -b) successfully finished
+2026-11-15 19:28:18,344 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config branch --list --no-color) successfully finished
+2026-11-15 19:28:18,420 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config remote get-url origin) successfully finished
+2026-11-15 19:28:19,329 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config fetch origin --prune --progress) successfully finished
+2026-11-15 19:28:19,368 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config merge-base --is-ancestor HEAD origin/master) successfully finished
+2026-11-15 19:28:19,405 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config rev-parse HEAD) successfully finished
+2026-11-15 19:28:19,437 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config describe --always --tags --long --dirty --abbrev=8) successfully finished
+2026-11-15 19:28:19,465 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config rev-parse origin/master) successfully finished
+2026-11-15 19:28:19,507 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config describe origin/master --always --tags --long --abbrev=8) successfully finished
+2026-11-15 19:28:19,550 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/mainsail-config rev-list HEAD..ff3869a621db17ce3ef660adbbd3fa321995ac42 --count) successfully finished
+2026-11-15 19:28:19,553 [git_deploy.py:log_repo_info()] - Git Repo mainsail-config Detected:
+Owner: mainsail-crew
+Repository Name: mainsail-config
+Path: /home/biqu/mainsail-config
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/mainsail-config.git
+Recovery URL: https://github.com/mainsail-crew/mainsail-config.git
+Current Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Upstream Commit SHA: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Current Version: v1.2.1-1-gff3869a6
+Upstream Version: v1.2.1-1-gff3869a6
+Rollback Commit: ff3869a621db17ce3ef660adbbd3fa321995ac42
+Rollback Branch: master
+Rollback Version: v1.2.1-1-gff3869a6
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2026-11-15 19:28:19,554 [base_deploy.py:log_info()] - Git Repo mainsail-config: Channel: dev
+2026-11-15 19:28:19,555 [base_deploy.py:log_info()] - Git Repo mainsail-config: Validity check for git repo passed
+2026-11-15 19:28:19,902 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+Repo: fluidd-core/fluidd
+Channel: stable
+Path: /home/biqu/fluidd
+Local Version: v1.38.0
+Remote Version: v1.38.0
+Valid: True
+Fallback Detected: False
+Pre-release: False
+Download Url: https://github.com/fluidd-core/fluidd/releases/download/v1.38.0/fluidd.zip
+Download Size: 4427087
+Content Type: application/zip
+Rollback Version: v1.37.7
+Rollback Repo: fluidd-core/fluidd
+2026-11-15 19:28:20,131 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest status --porcelain -b) successfully finished
+2026-11-15 19:28:20,160 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest branch --list --no-color) successfully finished
+2026-11-15 19:28:20,214 [shell_command.py:_check_proc_success()] - Command (git -C /home/biqu/crowsnest remote get-url origin) successfully finished

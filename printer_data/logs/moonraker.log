@@ -2962,3 +2962,14 @@ Properties:
 2026-11-15 08:42:58,543 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 17.15ms
 2026-11-15 08:42:58,545 [websockets.py:open()] - Websocket Opened: ID: 281472898782496, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-15 08:42:58,561 [websockets.py:_handle_identify()] - Websocket 281472898782496 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-15 08:53:08,454 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary48b27d8ab7b8a1abb2ecb90c8af26e38
+2026-11-15 08:53:08,526 [application.py:post()] - Processing Uploaded File: printer.cfg
+2026-11-15 08:53:08,553 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 102.77ms
+2026-11-15 08:53:09,428 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-15 08:53:10,690 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 08:53:16,933 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 08:53:16,937 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 08:53:17,184 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-15 08:53:17,456 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-15 08:53:18,201 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']

@@ -4434,3 +4434,8 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryd736704c24c5e7b
 2026-11-15 10:55:08,779 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-15 10:55:09,110 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-15 10:55:09,564 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'heater_bed', 'temperature_fan CPUfan', 'extruder']
+2026-11-15 10:57:09,472 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary313a38328f30c4133636175dfb545d98
+2026-11-15 10:57:09,523 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-15 10:57:09,548 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 79.27ms
+2026-11-15 10:57:10,421 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed

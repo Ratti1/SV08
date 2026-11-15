@@ -5227,3 +5227,19 @@ Content-Type: multipart/form-data; boundary=----geckoformboundaryc6a0bc0ea3d9ece
 2026-11-15 19:24:00,260 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 8.57ms
 2026-11-15 19:24:00,262 [websockets.py:open()] - Websocket Opened: ID: 281472964294304, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-15 19:24:00,272 [websockets.py:_handle_identify()] - Websocket 281472964294304 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-15 19:24:08,310 [websockets.py:on_close()] - Websocket Closed: ID: 281472964294304 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.06
+2026-11-15 19:24:24,554 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.63ms
+2026-11-15 19:24:24,556 [websockets.py:open()] - Websocket Opened: ID: 281472973285936, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
+2026-11-15 19:24:24,564 [websockets.py:_handle_identify()] - Websocket 281472973285936 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-15 19:24:30,190 [websockets.py:on_close()] - Websocket Closed: ID: 281472973285936 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.64
+2026-11-15 19:24:30,642 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4.56ms
+2026-11-15 19:24:30,643 [websockets.py:open()] - Websocket Opened: ID: 281472974399520, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
+2026-11-15 19:24:30,649 [websockets.py:on_close()] - Websocket Closed: ID: 281472974399520 Close Code: 1000, Close Reason: probe complete, Pong Time Elapsed: 0.01
+2026-11-15 19:24:30,667 [application.py:log_request()] - 101 GET /websocket (192.168.1.77) [_TRUSTED_USER_] 4.53ms
+2026-11-15 19:24:30,668 [websockets.py:open()] - Websocket Opened: ID: 281472974400096, Proxied: False, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
+2026-11-15 19:24:30,678 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 6.30ms
+2026-11-15 19:24:30,679 [websockets.py:open()] - Websocket Opened: ID: 281472974401296, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
+2026-11-15 19:24:30,681 [websockets.py:on_close()] - Websocket Closed: ID: 281472974400096 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.02
+2026-11-15 19:24:30,686 [websockets.py:_handle_identify()] - Websocket 281472974401296 Client Identified - Name: fluidd, Version: 1.38.0-9331d7e, Type: web
+2026-11-15 19:24:30,717 [file_manager.py:get_file_list()] - Updating File List <config>...
+2026-11-15 19:24:31,056 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.history.get_job, Code: -32601, Message: Invalid job uid: 000002

@@ -5974,3 +5974,6 @@ Content-Type: multipart/form-data; boundary=----geckoformboundarya18857eac493389
 2026-11-15 20:53:24,140 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 63.69ms
 2026-11-15 20:53:25,044 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-11-15 20:53:26,314 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-15 20:53:33,291 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-15 20:53:33,300 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-15 20:53:33,796 [job_state.py:_handle_started()] - Job state initialized: standby

@@ -216,3 +216,6 @@ Klipper Version: v0.13.0-827-g29d4ec2d-dirty
 2026-11-17 18:58:02,697 [job_state.py:_handle_started()] - Job state initialized: standby
 2026-11-17 18:58:02,964 [klippy_connection.py:_check_ready()] - Klippy ready
 2026-11-17 18:58:03,462 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'temperature_fan CPUfan', 'extruder']
+2026-11-17 19:24:02,079 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473579154736
+2026-11-17 19:24:07,017 [websockets.py:on_close()] - Websocket Closed: ID: 281473579154736 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
+2026-11-17 19:24:51,498 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.77

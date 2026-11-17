@@ -209,3 +209,10 @@ Klipper Version: v0.13.0-827-g29d4ec2d-dirty
 2026-11-17 18:45:00,681 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 420.01 seconds
 2026-11-17 18:45:49,662 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
 2026-11-17 18:46:00,682 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 480.02 seconds
+2026-11-17 18:57:49,920 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-17 18:57:51,187 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-17 18:58:02,446 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-17 18:58:02,448 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-17 18:58:02,697 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-17 18:58:02,964 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-17 18:58:03,462 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'temperature_fan CPUfan', 'extruder']

@@ -197,3 +197,4 @@ Klipper Version: v0.13.0-827-g29d4ec2d-dirty
 2026-11-17 18:23:01,457 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 9.96ms
 2026-11-17 18:23:01,458 [websockets.py:open()] - Websocket Opened: ID: 281473579154736, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-17 18:23:01,479 [websockets.py:_handle_identify()] - Websocket 281473579154736 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-17 18:37:00,693 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds

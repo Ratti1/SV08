@@ -242,3 +242,12 @@ CPU Temperature: 51.335
 2026-11-23 18:59:52,395 [websockets.py:_handle_identify()] - Websocket 281472967112112 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
 2026-11-23 19:00:03,869 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-11-23 19:00:05,132 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-23 19:00:11,199 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-23 19:00:11,210 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-23 19:00:11,216 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'extra_mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+

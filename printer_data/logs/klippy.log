@@ -3725,3 +3725,182 @@ max_x = 332.96
 min_y = 10.0
 max_y = 340.0
 =======================
+webhooks client 281473085588000: New connection
+webhooks client 281473085588000: Client info {'program': 'Moonraker', 'version': 'v0.11.0-4-gb559b9a'}
+Using thermistor beta 4340.002 in heater heater_bed
+Extruder max_extrude_ratio=1.247255
+mcu 'mcu': Starting serial connect
+Loaded MCU 'mcu' 143 commands (v0.13.0-787-ge2b99a91 / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
+MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1_PA6_PA7_PA5=PA6,PA7,PA5 BUS_PINS_spi1_PB4_PB5_PB3=PB4,PB5,PB3 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2_PB14_PB15_PB13=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi3_PB4_PB5_PB3=PB4,PB5,PB3 CLOCK_FREQ=72000000 INITIAL_PINS=PA1,PA3 MCU=stm32f103xe PWM_MAX=32768 RESERVE_PINS_USB=PA11,PA12 STATS_SUMSQ_BASE=256 STEPPER_OPTIMIZED_EDGE=9 STEPPER_STEP_BOTH_EDGE=1
+MCU 'mcu' kconfig: 'CONFIG_LOW_LEVEL_OPTIONS=y\nCONFIG_MACH_STM32=y\nCONFIG_INITIAL_PINS="PA1,PA3"\n'
+mcu 'extra_mcu': Starting serial connect
+mcu 'extra_mcu': got {'count': 431, 'sum': 628936, 'sumsq': 5733908, '#name': 'stats', '#sent_time': 2068.420284569, '#receive_time': 2068.422448527}
+mcu 'extra_mcu': got {'oid': 7, 'next_clock': 3578157963, 'values': b's5', '#name': 'analog_in_state', '#sent_time': 2068.582620485, '#receive_time': 2068.60421036}
+mcu 'extra_mcu': got {'oid': 11, 'next_clock': 3581037963, 'values': b'\xb0\x08', '#name': 'analog_in_state', '#sent_time': 2068.635548985, '#receive_time': 2068.644212777}
+Loaded MCU 'extra_mcu' 143 commands (v0.13.0-787-ge2b99a91 / gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2)
+MCU 'extra_mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1_PA6_PA7_PA5=PA6,PA7,PA5 BUS_PINS_spi1_PB4_PB5_PB3=PB4,PB5,PB3 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2_PB14_PB15_PB13=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi3_PB4_PB5_PB3=PB4,PB5,PB3 CLOCK_FREQ=72000000 INITIAL_PINS=PA6 MCU=stm32f103xe PWM_MAX=32768 RESERVE_PINS_USB=PA11,PA12 STATS_SUMSQ_BASE=256 STEPPER_OPTIMIZED_EDGE=9 STEPPER_STEP_BOTH_EDGE=1
+MCU 'extra_mcu' kconfig: 'CONFIG_LOW_LEVEL_OPTIONS=y\nCONFIG_MACH_STM32=y\nCONFIG_INITIAL_PINS="PA6"\n'
+mcu_temperature 'mcu' nominal base=357.558140 slope=-767.441860
+mcu_temperature 'extra_mcu' nominal base=357.558140 slope=-767.441860
+Sending MCU 'mcu' printer configuration...
+Configured MCU 'mcu' (1024 moves)
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/klippy.py", line 135, in _connect
+    cb()
+  File "/home/biqu/klipper/klippy/mcu.py", line 1064, in _connect
+    config_params = self._send_get_config()
+  File "/home/biqu/klipper/klippy/mcu.py", line 1058, in _send_get_config
+    raise error("Can not update MCU '%s' config as it is shutdown" % (
+mcu.error: Can not update MCU 'extra_mcu' config as it is shutdown
+Can not update MCU 'extra_mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+Build file /home/biqu/klipper/klippy/../.config(4119): Mon Aug 31 15:40:25 2026
+========= Last MCU build config =========
+CONFIG_LOW_LEVEL_OPTIONS=y
+# CONFIG_MACH_AVR is not set
+# CONFIG_MACH_ATSAM is not set
+# CONFIG_MACH_ATSAMD is not set
+# CONFIG_MACH_LPC176X is not set
+CONFIG_MACH_STM32=y
+# CONFIG_MACH_HC32F460 is not set
+# CONFIG_MACH_RPXXXX is not set
+# CONFIG_MACH_PRU is not set
+# CONFIG_MACH_AR100 is not set
+# CONFIG_MACH_LINUX is not set
+# CONFIG_MACH_SIMU is not set
+CONFIG_BOARD_DIRECTORY="stm32"
+CONFIG_MCU="stm32f103xe"
+CONFIG_CLOCK_FREQ=72000000
+CONFIG_USBSERIAL=y
+CONFIG_FLASH_SIZE=0x10000
+CONFIG_FLASH_BOOT_ADDRESS=0x8000000
+CONFIG_RAM_START=0x20000000
+CONFIG_RAM_SIZE=0x5000
+CONFIG_STACK_SIZE=512
+CONFIG_FLASH_APPLICATION_ADDRESS=0x8002000
+CONFIG_STM32_SELECT=y
+CONFIG_MACH_STM32F103=y
+# CONFIG_MACH_STM32F207 is not set
+# CONFIG_MACH_STM32F401 is not set
+# CONFIG_MACH_STM32F405 is not set
+# CONFIG_MACH_STM32F407 is not set
+# CONFIG_MACH_STM32F429 is not set
+# CONFIG_MACH_STM32F446 is not set
+# CONFIG_MACH_STM32F765 is not set
+# CONFIG_MACH_STM32F031 is not set
+# CONFIG_MACH_STM32F042 is not set
+# CONFIG_MACH_STM32F070 is not set
+# CONFIG_MACH_STM32F072 is not set
+# CONFIG_MACH_STM32G070 is not set
+# CONFIG_MACH_STM32G071 is not set
+# CONFIG_MACH_STM32G0B0 is not set
+# CONFIG_MACH_STM32G0B1 is not set
+# CONFIG_MACH_STM32G431 is not set
+# CONFIG_MACH_STM32G474 is not set
+# CONFIG_MACH_STM32H723 is not set
+# CONFIG_MACH_STM32H743 is not set
+# CONFIG_MACH_STM32H750 is not set
+# CONFIG_MACH_STM32L412 is not set
+# CONFIG_MACH_N32G452 is not set
+# CONFIG_MACH_N32G455 is not set
+# CONFIG_MACH_STM32F103x6 is not set
+CONFIG_MACH_STM32F1=y
+CONFIG_HAVE_STM32_USBFS=y
+CONFIG_STM32_USB_DOUBLE_BUFFER_TX=y
+CONFIG_HAVE_STM32_CANBUS=y
+# CONFIG_STM32F103GD_DISABLE_SWD is not set
+CONFIG_STM32_DFU_ROM_ADDRESS=0
+CONFIG_STM32_FLASH_START_2000=y
+# CONFIG_STM32_FLASH_START_5000 is not set
+# CONFIG_STM32_FLASH_START_7000 is not set
+# CONFIG_STM32_FLASH_START_8000 is not set
+# CONFIG_STM32_FLASH_START_8800 is not set
+# CONFIG_STM32_FLASH_START_9000 is not set
+# CONFIG_STM32_FLASH_START_10000 is not set
+# CONFIG_STM32_FLASH_START_800 is not set
+# CONFIG_STM32_FLASH_START_1000 is not set
+# CONFIG_STM32_FLASH_START_4000 is not set
+# CONFIG_STM32_FLASH_START_0000 is not set
+CONFIG_STM32_CLOCK_REF_8M=y
+# CONFIG_STM32_CLOCK_REF_12M is not set
+# CONFIG_STM32_CLOCK_REF_16M is not set
+# CONFIG_STM32_CLOCK_REF_20M is not set
+# CONFIG_STM32_CLOCK_REF_24M is not set
+# CONFIG_STM32_CLOCK_REF_25M is not set
+# CONFIG_STM32_CLOCK_REF_INTERNAL is not set
+CONFIG_CLOCK_REF_FREQ=8000000
+CONFIG_STM32F0_TRIM=16
+CONFIG_STM32_USB_PA11_PA12=y
+# CONFIG_STM32_SERIAL_USART1 is not set
+# CONFIG_STM32_SERIAL_USART1_ALT_PB7_PB6 is not set
+# CONFIG_STM32_SERIAL_USART2 is not set
+# CONFIG_STM32_SERIAL_USART2_ALT_PD6_PD5 is not set
+# CONFIG_STM32_SERIAL_USART3 is not set
+# CONFIG_STM32_SERIAL_USART3_ALT_PD9_PD8 is not set
+# CONFIG_STM32_CANBUS_PA11_PA12 is not set
+# CONFIG_STM32_CANBUS_PA11_PB9 is not set
+# CONFIG_STM32_MMENU_CANBUS_PB8_PB9 is not set
+# CONFIG_STM32_MMENU_CANBUS_PD0_PD1 is not set
+CONFIG_USB=y
+CONFIG_USB_VENDOR_ID=0x1d50
+CONFIG_USB_DEVICE_ID=0x614e
+CONFIG_USB_SERIAL_NUMBER_CHIPID=y
+CONFIG_USB_SERIAL_NUMBER="12345"
+
+#
+# USB ids
+#
+# end of USB ids
+
+CONFIG_WANT_ADC=y
+CONFIG_WANT_SPI=y
+CONFIG_WANT_SOFTWARE_SPI=y
+CONFIG_WANT_I2C=y
+CONFIG_WANT_SOFTWARE_I2C=y
+CONFIG_WANT_HARD_PWM=y
+CONFIG_WANT_BUTTONS=y
+CONFIG_WANT_TMCUART=y
+CONFIG_WANT_NEOPIXEL=y
+CONFIG_WANT_PULSE_COUNTER=y
+CONFIG_WANT_ST7920=y
+CONFIG_WANT_HD44780=y
+CONFIG_WANT_ADXL345=y
+CONFIG_WANT_LIS2DW=y
+CONFIG_WANT_BMI160=y
+CONFIG_WANT_MPU9250=y
+CONFIG_WANT_ICM20948=y
+CONFIG_WANT_THERMOCOUPLE=y
+CONFIG_WANT_HX71X=y
+CONFIG_WANT_ADS131M0X=y
+CONFIG_WANT_ADS1220=y
+CONFIG_WANT_LDC1612=y
+CONFIG_WANT_SENSOR_ANGLE=y
+CONFIG_NEED_SENSOR_BULK=y
+CONFIG_WANT_TRIGGER_ANALOG=y
+CONFIG_NEED_SOS_FILTER=y
+CONFIG_CANBUS_FREQUENCY=1000000
+CONFIG_INLINE_STEPPER_HACK=y
+CONFIG_HAVE_STEPPER_OPTIMIZED_BOTH_EDGE=y
+CONFIG_WANT_STEPPER_OPTIMIZED_BOTH_EDGE=y
+CONFIG_INITIAL_PINS="PA6"
+CONFIG_HAVE_GPIO=y
+CONFIG_HAVE_GPIO_ADC=y
+CONFIG_HAVE_GPIO_SPI=y
+CONFIG_HAVE_GPIO_I2C=y
+CONFIG_HAVE_GPIO_HARD_PWM=y
+CONFIG_HAVE_STRICT_TIMING=y
+CONFIG_HAVE_CHIPID=y
+CONFIG_HAVE_BOOTLOADER_REQUEST=y
+=======================
+Build file /home/biqu/klipper/klippy/../out/klipper.dict(10975): Mon Oct 12 20:27:01 2026
+Last MCU build version: v0.13.0-787-ge2b99a91
+Last MCU build tools: gcc: (15:8-2019-q3-1+b1) 8.3.1 20190703 (release) [gcc-8-branch revision 273027] binutils: (2.35.2-2+14+b2) 2.35.2
+Last MCU build config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PB8,PB9 BUS_PINS_i2c2=PB10,PB11 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1_PA6_PA7_PA5=PA6,PA7,PA5 BUS_PINS_spi1_PB4_PB5_PB3=PB4,PB5,PB3 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2_PB14_PB15_PB13=PB14,PB15,PB13 BUS_PINS_spi3=PB4,PB5,PB3 BUS_PINS_spi3_PB4_PB5_PB3=PB4,PB5,PB3 CLOCK_FREQ=72000000 INITIAL_PINS=PA6 MCU=stm32f103xe PWM_MAX=32768 RESERVE_PINS_USB=PA11,PA12 STATS_SUMSQ_BASE=256 STEPPER_OPTIMIZED_EDGE=9 STEPPER_STEP_BOTH_EDGE=1
+Build file /home/biqu/klipper/klippy/../out/klipper.elf(1190792): Mon Oct 12 20:27:18 2026
+mcu 'extra_mcu': got {'oid': 7, 'next_clock': 3599757963, 'values': b't5', '#name': 'analog_in_state', '#sent_time': 2068.856358652, '#receive_time': 2068.904201902}
+mcu 'extra_mcu': got {'oid': 11, 'next_clock': 3602637963, 'values': b'\xc3\x08', '#name': 'analog_in_state', '#sent_time': 2068.856358652, '#receive_time': 2068.944202194}

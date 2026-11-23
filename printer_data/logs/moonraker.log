@@ -251,3 +251,11 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2026-11-23 19:00:15,899 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-23 19:00:15,916 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2026-11-23 19:00:17,192 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-23 19:00:23,654 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-23 19:00:23,657 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-23 19:00:23,906 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-23 19:00:24,189 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-23 19:00:24,679 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'temperature_fan CPUfan', 'extruder']

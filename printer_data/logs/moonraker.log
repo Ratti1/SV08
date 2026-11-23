@@ -203,3 +203,42 @@ Content-Type: multipart/form-data; boundary=------------------------fe27daeb1bd3
 2026-11-23 18:57:31,417 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode
 2026-11-23 18:57:31,462 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1741.72ms
 2026-11-23 18:57:31,706 [job_state.py:_send_job_event()] - Job Started: Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode
+2026-11-23 18:59:41,687 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2026-11-23 18:59:41,695 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1795460352.140845, Usage: 1.47%, Memory: 50388 kB
+System Time: 1795460353.146451, Usage: 1.54%, Memory: 50388 kB
+System Time: 1795460354.146955, Usage: 2.23%, Memory: 50388 kB
+System Time: 1795460355.147900, Usage: 2.18%, Memory: 50388 kB
+System Time: 1795460356.147617, Usage: 2.33%, Memory: 50388 kB
+System Time: 1795460357.149120, Usage: 2.07%, Memory: 50388 kB
+System Time: 1795460358.150690, Usage: 2.34%, Memory: 50388 kB
+System Time: 1795460359.150542, Usage: 2.3%, Memory: 50388 kB
+System Time: 1795460360.151224, Usage: 2.43%, Memory: 50388 kB
+System Time: 1795460361.153065, Usage: 4.2%, Memory: 50388 kB
+System Time: 1795460362.153817, Usage: 2.51%, Memory: 50388 kB
+System Time: 1795460363.154324, Usage: 2.22%, Memory: 50388 kB
+System Time: 1795460364.148991, Usage: 1.98%, Memory: 50388 kB
+System Time: 1795460365.148845, Usage: 1.27%, Memory: 50388 kB
+System Time: 1795460366.149170, Usage: 1.32%, Memory: 50388 kB
+System Time: 1795460367.148670, Usage: 1.19%, Memory: 50388 kB
+System Time: 1795460368.156010, Usage: 1.53%, Memory: 50388 kB
+System Time: 1795460369.150540, Usage: 1.9%, Memory: 50392 kB
+System Time: 1795460370.150903, Usage: 1.23%, Memory: 50392 kB
+System Time: 1795460371.156676, Usage: 2.59%, Memory: 50392 kB
+System Time: 1795460372.151253, Usage: 1.81%, Memory: 50392 kB
+System Time: 1795460373.152210, Usage: 1.2%, Memory: 50392 kB
+System Time: 1795460374.157371, Usage: 1.56%, Memory: 50392 kB
+System Time: 1795460375.153588, Usage: 1.75%, Memory: 50392 kB
+System Time: 1795460376.157668, Usage: 1.29%, Memory: 50392 kB
+System Time: 1795460377.160004, Usage: 1.85%, Memory: 50392 kB
+System Time: 1795460378.160056, Usage: 2.0%, Memory: 50392 kB
+System Time: 1795460379.161411, Usage: 1.97%, Memory: 50392 kB
+System Time: 1795460380.162383, Usage: 2.04%, Memory: 50392 kB
+System Time: 1795460381.163772, Usage: 3.46%, Memory: 50392 kB
+CPU Temperature: 51.335
+2026-11-23 18:59:52,385 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 7.38ms
+2026-11-23 18:59:52,386 [websockets.py:open()] - Websocket Opened: ID: 281472967112112, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/60.5 Safari/605.1.15 BBL-Slicer/v01.10.01.50 (dark) BBL-Language/en, Host Name: 192.168.1.46
+2026-11-23 18:59:52,395 [websockets.py:_handle_identify()] - Websocket 281472967112112 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-23 19:00:03,869 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-23 19:00:05,132 [klippy_connection.py:_do_connect()] - Klippy Connection Established

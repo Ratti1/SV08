@@ -262,3 +262,29 @@ Error configuring printer
 2026-11-23 19:08:38,048 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 4.37ms
 2026-11-23 19:08:38,050 [websockets.py:open()] - Websocket Opened: ID: 281472977324928, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-23 19:08:38,058 [websockets.py:_handle_identify()] - Websocket 281472977324928 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-23 19:18:55,870 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundaryb4cf427a3eb7b74de07a963f5ecce129
+2026-11-23 19:18:55,930 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-23 19:18:55,957 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 91.90ms
+2026-11-23 19:18:56,824 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-23 19:18:58,087 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-23 19:19:03,715 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-23 19:19:03,718 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-23 19:19:03,967 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-23 19:19:04,233 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-23 19:19:04,992 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'temperature_fan CPUfan', 'extruder']
+2026-11-23 19:19:14,075 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=------------------------db46d680550be8a9
+2026-11-23 19:19:14,574 [application.py:post()] - Processing Uploaded File: Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode
+2026-11-23 19:19:15,331 [shell_command.py:pipe_data_received()] - INFO:metadata:Processor preprocess_cancellation is disabled
+
+2026-11-23 19:19:15,575 [shell_command.py:_check_proc_success()] - Command (/home/biqu/moonraker-env/bin/python /home/biqu/moonraker/moonraker/components/file_manager/metadata.py -c /tmp/metacfg-a7xnuabd.json) successfully finished
+2026-11-23 19:19:15,580 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode
+2026-11-23 19:19:15,582 [file_manager.py:_check_action()] - 
+Inotify action mismatch:
+Expected action: create_file, Inotify action: modify_file
+Requested path: /home/biqu/printer_data/gcodes/Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode
+Inotify path: /home/biqu/printer_data/gcodes/Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode
+Is move/copy: False
+2026-11-23 19:19:15,634 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1562.40ms
+2026-11-23 19:19:15,762 [job_state.py:_send_job_event()] - Job Started: Untitled-359432b3e219c108_PLA_0.2_19m16s.gcode

@@ -340,3 +340,9 @@ Content-Type: multipart/form-data; boundary=------------------------b71d4b470ada
 2026-11-23 20:21:06,985 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Untitled-359432b3e219c108_PLA_0.2_19m14s.gcode
 2026-11-23 20:21:07,040 [application.py:log_request()] - 201 POST /api/files/local (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 1585.37ms
 2026-11-23 20:21:07,135 [job_state.py:_send_job_event()] - Job Started: Untitled-359432b3e219c108_PLA_0.2_19m14s.gcode
+2026-11-23 20:43:34,714 [websockets.py:write_to_socket()] - Websocket closed while writing: 281472967112112
+2026-11-23 20:43:38,974 [websockets.py:write_to_socket()] - Websocket closed while writing: 281472977324928
+2026-11-23 20:43:39,503 [websockets.py:on_close()] - Websocket Closed: ID: 281472967112112 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.01
+2026-11-23 20:43:42,215 [websockets.py:write_to_socket()] - Websocket closed while writing: 281472966723472
+2026-11-23 20:43:43,952 [websockets.py:on_close()] - Websocket Closed: ID: 281472977324928 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00
+2026-11-23 20:43:47,212 [websockets.py:on_close()] - Websocket Closed: ID: 281472966723472 Close Code: None, Close Reason: None, Pong Time Elapsed: 25.00

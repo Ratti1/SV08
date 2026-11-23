@@ -315,3 +315,19 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary35cfa6e535f9dd4
 2026-11-23 20:18:12,668 [klippy_apis.py:cancel_print()] - Requesting job cancel...
 2026-11-23 20:18:31,398 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
 2026-11-23 20:18:32,973 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-23 20:18:40,398 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-23 20:18:40,407 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-23 20:18:40,650 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-23 20:18:41,039 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-23 20:18:41,668 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'temperature_fan CPUfan', 'extruder']
+2026-11-23 20:18:54,547 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundarya405b4aac8402ff23cd7cad99d1e1791
+2026-11-23 20:18:54,591 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-23 20:18:54,613 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 70.27ms
+2026-11-23 20:18:55,497 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-23 20:18:56,767 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2026-11-23 20:19:02,460 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2026-11-23 20:19:02,462 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2026-11-23 20:19:02,711 [job_state.py:_handle_started()] - Job state initialized: standby
+2026-11-23 20:19:02,976 [klippy_connection.py:_check_ready()] - Klippy ready
+2026-11-23 20:19:03,987 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'temperature_sensor mcu_temp', 'temperature_sensor Host_temp', 'temperature_sensor Toolhead_Temp', 'temperature_fan CPUfan', 'extruder']

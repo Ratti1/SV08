@@ -308,3 +308,10 @@ Content-Type: multipart/form-data; boundary=----geckoformboundary4a0fcd5a02337ff
 Content-Type: multipart/form-data; boundary=----geckoformboundaryb4bd8d3448a0ceefa7a7e5887acbaf1c
 2026-11-23 20:07:20,483 [application.py:post()] - Processing Uploaded File: Macro.cfg
 2026-11-23 20:07:20,504 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 59.90ms
+2026-11-23 20:17:59,125 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary35cfa6e535f9dd4aac4d1c126e068132
+2026-11-23 20:17:59,149 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-23 20:17:59,161 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 38.30ms
+2026-11-23 20:18:12,668 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2026-11-23 20:18:31,398 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2026-11-23 20:18:32,973 [klippy_connection.py:_do_connect()] - Klippy Connection Established

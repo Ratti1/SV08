@@ -300,3 +300,11 @@ Is move/copy: False
 2026-11-23 19:34:01,602 [application.py:log_request()] - 101 GET /websocket (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 8.85ms
 2026-11-23 19:34:01,604 [websockets.py:open()] - Websocket Opened: ID: 281472966723472, Proxied: True, User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:160.0) Gecko/20100101 Firefox/160.0, Host Name: 192.168.1.46
 2026-11-23 19:34:01,614 [websockets.py:_handle_identify()] - Websocket 281472966723472 Client Identified - Name: mainsail, Version: 2.19.0, Type: web
+2026-11-23 20:07:13,976 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundary4a0fcd5a02337ff8ec84fe153389f1d0
+2026-11-23 20:07:14,036 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-23 20:07:14,064 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 93.54ms
+2026-11-23 20:07:20,446 [application.py:prepare()] - Upload Request Received from 192.168.1.77
+Content-Type: multipart/form-data; boundary=----geckoformboundaryb4bd8d3448a0ceefa7a7e5887acbaf1c
+2026-11-23 20:07:20,483 [application.py:post()] - Processing Uploaded File: Macro.cfg
+2026-11-23 20:07:20,504 [application.py:log_request()] - 201 POST /server/files/upload (192.168.1.77 via 127.0.0.1) [_TRUSTED_USER_] 59.90ms

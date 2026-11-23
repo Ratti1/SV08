@@ -60087,3 +60087,570 @@ Traceback (most recent call last):
 gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
 
 Stats 8582.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000020 mcu_task_stddev=0.000057 bytes_write=3295367 bytes_read=887349 bytes_retransmit=9 bytes_invalid=0 send_seq=68705 receive_seq=68705 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003230 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=491177 bytes_read=389787 bytes_retransmit=9 bytes_invalid=0 send_seq=12375 receive_seq=12375 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003546 adj=72000326 heater_bed: target=0 temp=54.9 pwm=0.000 mcu_temp: temp=46.3 Host_temp: temp=61.7 Toolhead_Temp: temp=43.2 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.3 pwm=0.000 sysload=0.54 cputime=910.997 memavail=778096
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8583.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000020 mcu_task_stddev=0.000057 bytes_write=3295373 bytes_read=887484 bytes_retransmit=9 bytes_invalid=0 send_seq=68706 receive_seq=68706 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003228 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=491183 bytes_read=389912 bytes_retransmit=9 bytes_invalid=0 send_seq=12376 receive_seq=12376 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003547 adj=72000344 heater_bed: target=0 temp=54.9 pwm=0.000 mcu_temp: temp=46.3 Host_temp: temp=64.1 Toolhead_Temp: temp=43.2 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.3 pwm=0.000 sysload=0.54 cputime=911.063 memavail=779552
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8584.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000020 mcu_task_stddev=0.000057 bytes_write=3295379 bytes_read=887589 bytes_retransmit=9 bytes_invalid=0 send_seq=68707 receive_seq=68707 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003226 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000009 bytes_write=491189 bytes_read=390037 bytes_retransmit=9 bytes_invalid=0 send_seq=12377 receive_seq=12377 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003545 adj=72000391 heater_bed: target=0 temp=54.9 pwm=0.000 mcu_temp: temp=46.3 Host_temp: temp=64.4 Toolhead_Temp: temp=43.3 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.2 pwm=0.000 sysload=0.54 cputime=911.111 memavail=780764
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8585.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000020 mcu_task_stddev=0.000057 bytes_write=3295385 bytes_read=887696 bytes_retransmit=9 bytes_invalid=0 send_seq=68708 receive_seq=68708 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003225 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000008 bytes_write=491195 bytes_read=390209 bytes_retransmit=9 bytes_invalid=0 send_seq=12378 receive_seq=12378 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003543 adj=72000368 heater_bed: target=0 temp=54.9 pwm=0.000 mcu_temp: temp=46.3 Host_temp: temp=65.8 Toolhead_Temp: temp=43.1 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.2 pwm=0.000 sysload=0.54 cputime=911.168 memavail=775032
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8586.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000016 mcu_task_stddev=0.000010 bytes_write=3295391 bytes_read=887854 bytes_retransmit=9 bytes_invalid=0 send_seq=68709 receive_seq=68709 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003224 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000008 bytes_write=491201 bytes_read=390342 bytes_retransmit=9 bytes_invalid=0 send_seq=12379 receive_seq=12379 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003541 adj=72000341 heater_bed: target=0 temp=54.8 pwm=0.000 mcu_temp: temp=46.4 Host_temp: temp=66.3 Toolhead_Temp: temp=43.2 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.1 pwm=0.000 sysload=0.54 cputime=911.226 memavail=778224
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8587.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000016 mcu_task_stddev=0.000010 bytes_write=3295397 bytes_read=887966 bytes_retransmit=9 bytes_invalid=0 send_seq=68710 receive_seq=68710 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=10 upcoming_bytes=9 freq=72003222 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000008 bytes_write=491207 bytes_read=390491 bytes_retransmit=9 bytes_invalid=0 send_seq=12380 receive_seq=12380 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003540 adj=72000329 heater_bed: target=0 temp=54.8 pwm=0.000 mcu_temp: temp=46.3 Host_temp: temp=67.4 Toolhead_Temp: temp=43.2 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.1 pwm=0.000 sysload=0.58 cputime=911.286 memavail=746748
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8588.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000016 mcu_task_stddev=0.000010 bytes_write=3295432 bytes_read=888088 bytes_retransmit=9 bytes_invalid=0 send_seq=68713 receive_seq=68713 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003222 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000008 bytes_write=491213 bytes_read=390640 bytes_retransmit=9 bytes_invalid=0 send_seq=12381 receive_seq=12381 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003540 adj=72000325 heater_bed: target=0 temp=54.8 pwm=0.000 mcu_temp: temp=46.4 Host_temp: temp=66.2 Toolhead_Temp: temp=43.2 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.1 pwm=0.000 sysload=0.58 cputime=911.352 memavail=707104
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+Error during display screen update
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 70, in render
+    return str(self.template.render(context))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 3, in top-level template code
+  File "/home/biqu/klippy-env/lib/python3.9/site-packages/jinja2/environment.py", line 471, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 235, in screen_update_event
+    self.show_data_group.show(self, self.display_templates, eventtime)
+  File "/home/biqu/klipper/klippy/extras/display/display.py", line 85, in show
+    text = template.render(context)
+  File "/home/biqu/klipper/klippy/extras/gcode_macro.py", line 75, in render
+    raise self.gcode.error(msg)
+gcode.CommandError: Error evaluating 'display_data _sv08_pro print_status:text': jinja2.exceptions.UndefinedError: 'extras.gcode_macro.GetStatusWrapper object' has no attribute 'print_status'
+
+Stats 8589.7: gcodein=0 mcu: mcu_awake=0.003 mcu_task_avg=0.000016 mcu_task_stddev=0.000010 bytes_write=3295438 bytes_read=888232 bytes_retransmit=9 bytes_invalid=0 send_seq=68714 receive_seq=68714 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003223 extra_mcu: mcu_awake=0.003 mcu_task_avg=0.000015 mcu_task_stddev=0.000008 bytes_write=491219 bytes_read=390773 bytes_retransmit=9 bytes_invalid=0 send_seq=12382 receive_seq=12382 retransmit_seq=2 srtt=0.001 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72003540 adj=72000335 heater_bed: target=0 temp=54.8 pwm=0.000 mcu_temp: temp=46.2 Host_temp: temp=70.9 Toolhead_Temp: temp=43.2 print_time=1386.923 buffer_time=0.000 print_stall=0 extruder: target=0 temp=39.0 pwm=0.000 sysload=0.58 cputime=911.427 memavail=663040
